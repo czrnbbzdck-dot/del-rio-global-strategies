@@ -698,8 +698,20 @@
 
     .footer-meta {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 18px;
+    }
+
+    .footer-back-to-top {
+      color: var(--gold-light);
+      font-size: 12px;
+      white-space: nowrap;
+      transition: color 0.2s ease;
+    }
+
+    .footer-back-to-top:hover {
+      color: var(--white);
     }
 
     .footer-instagram {
@@ -1470,6 +1482,7 @@
             <circle cx="17.5" cy="6.8" r="1" fill="currentColor"/>
           </svg>
         </a>
+        <a class="footer-back-to-top" href="#top">Back to top</a>
       </div>
 
     </div>
