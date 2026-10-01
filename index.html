@@ -738,23 +738,74 @@
     }
 
     .top-menu {
+      position: relative;
       display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 6px 30px;
-      padding: 12px 24px;
+      justify-content: flex-end;
+      padding: 8px 24px;
       border-bottom: 1px solid var(--line);
       background: var(--navy);
       color: #d8dee6;
     }
 
+    .menu-toggle {
+      display: inline-flex;
+      width: 42px;
+      height: 42px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      border: 1px solid rgba(214, 181, 109, 0.55);
+      background: transparent;
+      color: var(--gold-light);
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      display: block;
+      width: 17px;
+      height: 1px;
+      background: currentColor;
+      transition: transform 0.2s ease;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:first-child {
+      transform: translateY(3px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:last-child {
+      transform: translateY(-3px) rotate(-45deg);
+    }
+
+    .top-menu-links {
+      position: absolute;
+      z-index: 20;
+      top: 100%;
+      right: 24px;
+      display: grid;
+      min-width: 230px;
+      padding: 8px 18px;
+      border: 1px solid var(--line);
+      background: var(--navy);
+      box-shadow: 0 12px 28px rgba(7, 17, 31, 0.2);
+    }
+
+    .top-menu-links[hidden] {
+      display: none;
+    }
+
     .top-menu a {
       display: inline-flex;
-      min-height: 32px;
+      min-height: 42px;
       align-items: center;
-      font-size: 11px;
+      border-bottom: 1px solid rgba(214, 181, 109, 0.14);
+      color: #d8dee6;
+      font-size: 12px;
       transition: color 0.2s ease;
+    }
+
+    .top-menu a:last-child {
+      border-bottom: 0;
     }
 
     .top-menu a:hover {
@@ -776,8 +827,11 @@
       }
 
       .top-menu {
-        gap: 4px 22px;
-        padding: 10px 20px;
+        padding: 7px 20px;
+      }
+
+      .top-menu-links {
+        right: 20px;
       }
 
       .visual-gallery {
@@ -837,8 +891,11 @@
       }
 
       .top-menu {
-        gap: 2px 16px;
-        padding: 9px 16px;
+        padding: 6px 16px;
+      }
+
+      .top-menu-links {
+        right: 16px;
       }
 
       .visual-gallery {
@@ -937,11 +994,17 @@
 <div class="page">
 
   <nav class="top-menu" aria-label="Page navigation">
-    <a href="#about">About</a>
-    <a href="#focus">Areas of Focus</a>
-    <a href="#regional">Geographic Perspective</a>
-    <a href="#strategic-consulting">Strategic Consulting</a>
-    <a href="#instagram">Instagram</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="top-menu-links">
+      <span></span>
+      <span></span>
+    </button>
+    <div class="top-menu-links" id="top-menu-links" hidden>
+      <a href="#about">About</a>
+      <a href="#focus">Areas of Focus</a>
+      <a href="#regional">Geographic Perspective</a>
+      <a href="#strategic-consulting">Strategic Consulting</a>
+      <a href="#instagram">Instagram</a>
+    </div>
   </nav>
 
   <main id="main">
@@ -993,7 +1056,6 @@
       <div class="section-inner">
 
         <div class="about-grid">
-
           <div class="about-text">
 
             <div class="section-label">01 — About</div>
@@ -1025,19 +1087,20 @@
 
           </div>
 
-          <div class="principle">
+          <div class="about-aside">
+            <div class="principle">
+              <strong>
+                A regional perspective
+              </strong>
 
-            <strong>
-              A regional perspective
-            </strong>
-
-            <p>
-              Del Rio Global Strategies draws on economic,
-              institutional, technological, and regional perspectives
-              to examine emerging challenges, identify opportunities,
-              and develop practical strategies for long-term resilience
-              and sustainable development.
-            </p>
+              <p>
+                Del Rio Global Strategies draws on economic,
+                institutional, technological, and regional perspectives
+                to examine emerging challenges, identify opportunities,
+                and develop practical strategies for long-term resilience
+                and sustainable development.
+              </p>
+            </div>
 
           </div>
 
@@ -1259,6 +1322,32 @@
   </footer>
 
 </div>
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const menuLinks = document.querySelector("#top-menu-links");
+
+  const closeMenu = () => {
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation menu");
+    menuLinks.hidden = true;
+  };
+
+  menuToggle.addEventListener("click", () => {
+    const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+    menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+    menuToggle.setAttribute("aria-label", isExpanded ? "Open navigation menu" : "Close navigation menu");
+    menuLinks.hidden = isExpanded;
+  });
+
+  menuLinks.addEventListener("click", (event) => {
+    if (event.target.closest("a")) closeMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
+  });
+</script>
 
 </body>
 </html>
