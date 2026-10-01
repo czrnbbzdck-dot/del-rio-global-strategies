@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Del Rio Global Strategies | Puerto Rico | Americas & Caribbean</title>
+
+  <meta
+    name="description"
+    content="Del Rio Global Strategies is a strategic consulting and foresight organization focused on Puerto Rico, the Americas, and the Caribbean."
+  >
+
+  <meta name="theme-color" content="#07111f">
+
+  <style>
+    :root {
+      --navy: #07111f;
+      --navy-light: #0d1b2d;
+      --gold: #d6b56d;
+      --gold-light: #f0d995;
+      --white: #f7f7f4;
+      --muted: #aeb8c5;
+      --line: rgba(214, 181, 109, 0.28);
+      --panel: rgba(255, 255, 255, 0.045);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      background: var(--navy);
+      color: var(--white);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      min-height: 100vh;
+      background:
+        radial-gradient(
+          circle at 80% 10%,
+          rgba(214, 181, 109, 0.10),
+          transparent 30%
+        ),
+        linear-gradient(
+          135deg,
+          #07111f 0%,
+          #091625 48%,
+          #0b1929 100%
+        );
+    }
+
+    /* NAVIGATION */
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7, 17, 31, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 20px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      color: var(--gold-light);
+    }
+
+    .brand span {
+      display: block;
+      font-family: Inter, sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      font-size: 13px;
+      color: #d8dee6;
+    }
+
+    .nav-links a {
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* HERO */
+
+    .hero {
+      max-width: 1180px;
+      margin: auto;
+      padding: 120px 28px 105px;
+      position: relative;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      max-width: 850px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 8vw, 86px);
+      line-height: 1.02;
+      font-weight: 400;
+      letter-spacing: -2px;
+    }
+
+    .hero-title-accent {
+      color: var(--gold-light);
+    }
+
+    .location {
+      margin-top: 24px;
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #d8dee6;
+    }
+
+    .hero-description {
+      max-width: 720px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .hero-line {
+      width: 110px;
+      height: 1px;
+      background: var(--gold);
+      margin-top: 42px;
+    }
+
+    .hero-note {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #8793a2;
+      letter-spacing: 1px;
+    }
+
+    /* SECTIONS */
+
+    section {
+      border-top: 1px solid var(--line);
+    }
+
+    .section-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 90px 28px;
+    }
+
+    .section-label {
+      color: var(--gold);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 5vw, 52px);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      max-width: 800px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    /* ABOUT */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .principle {
+      border-left: 2px solid var(--gold);
+      padding: 22px 25px;
+      background: var(--panel);
+    }
+
+    .principle strong {
+      display: block;
+      color: var(--gold-light);
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    .principle p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* FOCUS */
+
+    .focus-grid {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+
+    .focus-card {
+      background: #091624;
+      padding: 34px 30px;
+      min-height: 190px;
+      transition: background 0.25s ease;
+    }
+
+    .focus-card:hover {
+      background: #102033;
+    }
+
+    .number {
+      color: var(--gold);
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    .focus-card h3 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 18px 0 12px;
+    }
+
+    .focus-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* REGIONAL */
+
+    .regional {
+      background:
+        linear-gradient(
+          110deg,
+          rgba(214,181,109,0.08),
+          transparent 45%
+        );
+    }
+
+    .regional-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .regional-mark {
+      min-height: 320px;
+      border: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle,
+          rgba(214,181,109,0.10),
+          transparent 60%
+        );
+    }
+
+    .regional-mark strong {
+      display: block;
+      font-family: Georgia, serif;
+      font-size: 40px;
+      color: var(--gold-light);
+    }
+
+    .regional-mark span {
+      display: block;
+      margin-top: 12px;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .regional-text p {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* PARTNERSHIP */
+
+    .partnership {
+      text-align: center;
+      padding: 100px 28px;
+    }
+
+    .partner-box {
+      max-width: 850px;
+      margin: 40px auto 0;
+      padding: 45px;
+      border: 1px solid var(--line);
+      background: linear-gradient(
+        145deg,
+        rgba(214,181,109,0.08),
+        rgba(255,255,255,0.025)
+      );
+    }
+
+    .partner-name {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      color: var(--gold-light);
+    }
+
+    .partner-status {
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .partner-description {
+      max-width: 650px;
+      margin: 25px auto 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    footer {
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-inner {
+      max-width: 1180px;
+      margin: auto;
+      padding: 50px 28px;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: end;
+    }
+
+    .footer-name {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      color: var(--gold-light);
+    }
+
+    .footer-location {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 6px;
+    }
+
+    .copyright {
+      color: #687587;
+      font-size: 11px;
+      text-align: right;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 800px) {
+
+      .nav-inner {
+        padding: 16px 20px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding: 85px 22px 75px;
+      }
+
+      .section-inner {
+        padding: 70px 22px;
+      }
+
+      .about-grid,
+      .regional-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .focus-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .regional-mark {
+        min-height: 240px;
+      }
+
+      .partner-box {
+        padding: 32px 22px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .copyright {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="page">
+
+  <nav>
+    <div class="nav-inner">
+
+      <a href="#" class="brand">
+        Del Rio Global Strategies
+        <span>Puerto Rico | Americas & Caribbean</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#regional">Regional</a>
+        <a href="#partnership">Partnership</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+      <div class="eyebrow">
+        Strategic Consulting • Research • Foresight
+      </div>
+
+      <h1>
+        Del Rio
+        <span class="hero-title-accent">Global Strategies</span>
+      </h1>
+
+      <div class="location">
+        Puerto Rico | Americas & Caribbean
+      </div>
+
+      <p class="hero-description">
+        Strategic research, foresight, and advisory perspectives
+        focused on complex economic, technological, infrastructure,
+        and regional-development challenges.
+      </p>
+
+      <div class="hero-line"></div>
+
+      <div class="hero-note">
+        Strategy for a changing region.
+      </div>
+
+    </header>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+      <div class="section-inner">
+
+        <div class="about-grid">
+
+          <div class="about-text">
+
+            <div class="section-label">01 — About</div>
+
+            <h2>
+              Understanding complexity.
+              Building strategy.
+            </h2>
+
+            <p>
+              Del Rio Global Strategies is a strategic consulting and
+              foresight organization focused on Puerto Rico, the
+              Americas, and the Caribbean.
+            </p>
+
+            <p>
+              Its work encompasses business strategy, economic
+              development, infrastructure, energy, digital
+              transformation, strategic communications, investment,
+              and cross-border initiatives.
+            </p>
+
+            <p>
+              The organization develops strategic research, analysis,
+              planning frameworks, and advisory initiatives addressing
+              complex economic, technological, infrastructure, and
+              regional-development challenges.
+            </p>
+
+          </div>
+
+          <div class="principle">
+
+            <strong>
+              A regional perspective
+            </strong>
+
+            <p>
+              Del Rio Global Strategies brings together perspectives
+              from the public sector, private sector, institutional
+              organizations, research communities, and other
+              stakeholders to examine emerging challenges, identify
+              opportunities, and develop practical strategies for
+              long-term resilience and sustainable development.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- AREAS OF FOCUS -->
+
+    <section id="focus">
+
+      <div class="section-inner">
+
+        <div class="section-label">02 — Areas of Focus</div>
+
+        <h2>
+          Strategic areas of inquiry
+        </h2>
+
+        <p class="intro">
+          An interdisciplinary approach connects economic,
+          technological, infrastructure, investment, and
+          regional-development perspectives.
+        </p>
+
+        <div class="focus-grid">
+
+          <article class="focus-card">
+            <div class="number">01</div>
+            <h3>Economic Development</h3>
+            <p>
+              Economic strategy, regional development, market
+              analysis, and long-term growth frameworks.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="number">02</div>
+            <h3>Infrastructure & Resilience</h3>
+            <p>
+              Strategic perspectives on infrastructure,
+              resilience, critical systems, and development.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="number">03</div>
+            <h3>Energy & Sustainability</h3>
+            <p>
+              Energy systems, sustainability, resilience,
+              transition, and regional energy strategy.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="number">04</div>
+            <h3>Digital Transformation</h3>
+            <p>
+              Technology, digital systems, emerging technologies,
+              and strategic transformation.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="number">05</div>
+            <h3>Investment & Cross-Border Strategy</h3>
+            <p>
+              Investment perspectives, international markets,
+              partnerships, and cross-border opportunities.
+            </p>
+          </article>
+
+          <article class="focus-card">
+            <div class="number">06</div>
+            <h3>Strategic Communications</h3>
+            <p>
+              Research-driven communications, public information,
+              strategic narratives, and stakeholder engagement.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- REGIONAL -->
+
+    <section id="regional" class="regional">
+
+      <div class="section-inner">
+
+        <div class="regional-grid">
+
+          <div class="regional-mark">
+
+            <div>
+              <strong>PR</strong>
+              <span>Americas & Caribbean</span>
+            </div>
+
+          </div>
+
+          <div class="regional-text">
+
+            <div class="section-label">03 — Geographic Perspective</div>
+
+            <h2>
+              Puerto Rico as a regional perspective.
+            </h2>
+
+            <p>
+              From Puerto Rico, Del Rio Global Strategies examines
+              economic, technological, infrastructure, investment,
+              and geopolitical developments across the Americas and
+              Caribbean.
+            </p>
+
+            <p>
+              The regional perspective recognizes that many modern
+              challenges extend beyond individual jurisdictions and
+              require connections between markets, institutions,
+              infrastructure, technology, and communities.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PARTNERSHIP -->
+
+    <section id="partnership">
+
+      <div class="partnership">
+
+        <div class="section-label">
+          04 — Strategic Partnership
+        </div>
+
+        <h2>
+          Research & Regional Intelligence
+        </h2>
+
+        <div class="partner-box">
+
+          <div class="partner-name">
+            AmeriCaribe Insights
+          </div>
+
+          <div class="partner-status">
+            Official Partner of Del Rio Global Strategies
+          </div>
+
+          <p class="partner-description">
+            AmeriCaribe Insights provides research, analysis,
+            journalism, and regional intelligence covering Puerto Rico,
+            the Americas, the Caribbean, and global developments
+            relevant to the region.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-inner">
+
+      <div>
+        <div class="footer-name">
+          Del Rio Global Strategies
+        </div>
+
+        <div class="footer-location">
+          Puerto Rico | Americas & Caribbean
+        </div>
+      </div>
+
+      <div class="copyright">
+        © 2026 Del Rio Global Strategies
+      </div>
+
+    </div>
+
+  </footer>
+
+</div>
+
+</body>
+</html>
