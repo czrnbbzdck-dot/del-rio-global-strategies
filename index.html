@@ -737,6 +737,30 @@
       background: var(--paper);
     }
 
+    .top-menu {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 6px 30px;
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--line);
+      background: var(--navy);
+      color: #d8dee6;
+    }
+
+    .top-menu a {
+      display: inline-flex;
+      min-height: 32px;
+      align-items: center;
+      font-size: 11px;
+      transition: color 0.2s ease;
+    }
+
+    .top-menu a:hover {
+      color: var(--gold-light);
+    }
+
     .visual-gallery img {
       display: block;
       width: 100%;
@@ -749,6 +773,11 @@
     @media (max-width: 800px) {
       .hero {
         padding: 72px 24px 68px;
+      }
+
+      .top-menu {
+        gap: 4px 22px;
+        padding: 10px 20px;
       }
 
       .visual-gallery {
@@ -805,6 +834,11 @@
     @media (max-width: 600px) {
       .hero {
         padding: 58px 22px 54px;
+      }
+
+      .top-menu {
+        gap: 2px 16px;
+        padding: 9px 16px;
       }
 
       .visual-gallery {
@@ -901,6 +935,14 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <div class="page">
+
+  <nav class="top-menu" aria-label="Page navigation">
+    <a href="#about">About</a>
+    <a href="#focus">Areas of Focus</a>
+    <a href="#regional">Geographic Perspective</a>
+    <a href="#strategic-consulting">Strategic Consulting</a>
+    <a href="#instagram">Instagram</a>
+  </nav>
 
   <main id="main">
 
@@ -1203,7 +1245,7 @@
         <div class="copyright">
           © 2026 Del Rio Global Strategies
         </div>
-        <a class="footer-instagram" href="https://www.instagram.com/delrioglobalstrategies/" aria-label="Instagram — @delrioglobalstrategies" target="_blank" rel="noopener noreferrer">
+        <a id="instagram" class="footer-instagram" href="https://www.instagram.com/delrioglobalstrategies/" aria-label="Instagram — @delrioglobalstrategies" target="_blank" rel="noopener noreferrer">
           <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
             <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.5"/>
             <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
