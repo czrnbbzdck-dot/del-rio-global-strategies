@@ -82,57 +82,6 @@
 
     /* NAVIGATION */
 
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      border-bottom: 1px solid var(--line);
-      background: rgba(7, 17, 31, 0.92);
-      backdrop-filter: blur(16px);
-    }
-
-    .nav-inner {
-      max-width: 1180px;
-      margin: auto;
-      padding: 20px 28px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-    }
-
-    .brand {
-      font-family: Georgia, serif;
-      font-size: 20px;
-      letter-spacing: 1.5px;
-      color: var(--gold-light);
-    }
-
-    .brand span {
-      display: block;
-      font-family: Inter, sans-serif;
-      font-size: 10px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-top: 2px;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 28px;
-      font-size: 13px;
-      color: #d8dee6;
-    }
-
-    .nav-links a {
-      transition: color 0.2s ease;
-    }
-
-    .nav-links a:hover {
-      color: var(--gold-light);
-    }
-
     /* HERO */
 
     .hero {
@@ -398,14 +347,6 @@
 
     @media (max-width: 800px) {
 
-      .nav-inner {
-        padding: 16px 20px;
-      }
-
-      .nav-links {
-        display: none;
-      }
-
       .hero {
         padding: 85px 22px 75px;
       }
@@ -450,10 +391,6 @@
       --body-muted: #53616a;
     }
 
-    html {
-      scroll-padding-top: 90px;
-    }
-
     body {
       font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--paper);
@@ -483,40 +420,6 @@
     :focus-visible {
       outline: 3px solid var(--gold);
       outline-offset: 4px;
-    }
-
-    nav {
-      border-bottom: 1px solid #d9dcd8;
-      background: rgba(243, 244, 241, 0.97);
-    }
-
-    .nav-inner {
-      max-width: 1240px;
-      padding: 15px 32px;
-      gap: 36px;
-    }
-
-    .brand {
-      color: var(--navy);
-      font-size: 18px;
-      letter-spacing: 0;
-      line-height: 1.25;
-    }
-
-    .brand span {
-      font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: #59666d;
-      letter-spacing: 1.5px;
-      margin-top: 5px;
-    }
-
-    .nav-links {
-      gap: 25px;
-      color: #35444c;
-    }
-
-    .nav-links a:hover {
-      color: var(--gold-deep);
     }
 
     .hero {
@@ -793,19 +696,64 @@
       color: #a1adb4;
     }
 
+    .footer-meta {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .footer-instagram {
+      display: inline-flex;
+      width: 36px;
+      height: 36px;
+      flex: 0 0 36px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(214, 181, 109, 0.55);
+      color: var(--gold-light);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .footer-instagram:hover {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .footer-instagram svg {
+      display: block;
+      width: 17px;
+      height: 17px;
+    }
+
+    .visual-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: start;
+      gap: 24px;
+      max-width: 1296px;
+      margin: 0 auto;
+      padding: 58px 32px;
+      border-top: 1px solid rgba(214, 181, 109, 0.35);
+      background: var(--paper);
+    }
+
+    .visual-gallery img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 5;
+      border: 1px solid rgba(214, 181, 109, 0.32);
+      object-fit: contain;
+    }
+
     @media (max-width: 800px) {
-      .nav-inner {
-        padding: 14px 22px;
-      }
-
-      .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 9px 20px;
-      }
-
       .hero {
         padding: 72px 24px 68px;
+      }
+
+      .visual-gallery {
+        gap: 18px;
+        padding: 48px 24px;
       }
 
       .hero-layout {
@@ -851,22 +799,23 @@
       .copyright {
         text-align: left;
       }
+
     }
 
     @media (max-width: 600px) {
-      .nav-inner {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 12px;
-      }
-
-      .nav-links {
-        gap: 6px 16px;
-        font-size: 12px;
-      }
-
       .hero {
         padding: 58px 22px 54px;
+      }
+
+      .visual-gallery {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        padding: 36px 22px;
+      }
+
+      .visual-gallery img {
+        width: min(100%, 370px);
+        justify-self: center;
       }
 
       .hero-layout {
@@ -911,6 +860,7 @@
       .footer-inner {
         padding: 30px 22px;
       }
+
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -951,24 +901,6 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <div class="page">
-
-  <nav aria-label="Primary navigation">
-    <div class="nav-inner">
-
-      <a href="#top" class="brand" aria-label="Del Rio Global Strategies, home">
-        Del Rio Global Strategies
-        <span>Puerto Rico | Americas & Caribbean</span>
-      </a>
-
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#focus">Focus</a>
-        <a href="#regional">Regional</a>
-          <a href="#strategic-consulting">Consulting</a>
-      </div>
-
-    </div>
-  </nav>
 
   <main id="main">
 
@@ -1245,11 +1177,13 @@
 
     </section>
 
-
   </main>
 
-
-  <!-- FOOTER -->
+  <section class="visual-gallery" aria-hidden="true">
+    <img src="assets/insights/strategy.svg" alt="" width="700" height="875" loading="lazy">
+    <img src="assets/insights/infrastructure.svg" alt="" width="700" height="875" loading="lazy">
+    <img src="assets/insights/technology.svg" alt="" width="700" height="875" loading="lazy">
+  </section>
 
   <footer aria-label="Site footer">
 
@@ -1265,8 +1199,17 @@
         </div>
       </div>
 
-      <div class="copyright">
-        © 2026 Del Rio Global Strategies
+      <div class="footer-meta">
+        <div class="copyright">
+          © 2026 Del Rio Global Strategies
+        </div>
+        <a class="footer-instagram" href="https://www.instagram.com/delrioglobalstrategies/" aria-label="Instagram — @delrioglobalstrategies" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="17.5" cy="6.8" r="1" fill="currentColor"/>
+          </svg>
+        </a>
       </div>
 
     </div>
