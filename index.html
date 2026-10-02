@@ -906,14 +906,107 @@
       font-weight: 400;
     }
 
-    .approach-statement {
+    .scope-modules {
       margin-top: 42px;
-      padding-top: 28px;
-      border-top: 1px solid #cdd2ce;
+    }
+
+    .scope-track {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 14px;
+      width: 100%;
+      padding: 4px 2px 12px;
+      list-style: none;
+    }
+
+    .scope-square {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      width: 100%;
+      min-width: 0;
+      aspect-ratio: 1;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 14px 10px;
+      border: 1px solid var(--ink);
+      background: #fff;
+    }
+
+    .scope-square::after {
+      position: absolute;
+      top: 50%;
+      right: -14px;
+      width: 14px;
+      height: 1px;
+      background: rgba(214, 181, 109, 0.75);
+      content: "";
+    }
+
+    .scope-square:last-child::after,
+    .scope-square:nth-child(7n)::after {
+      display: none;
+    }
+
+    .scope-square-number {
+      margin-bottom: 14px;
+      color: var(--gold-deep);
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+
+    .scope-square h3 {
       color: var(--ink);
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 22px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
+    .scope-square p {
+      margin-top: 7px;
+      color: var(--body-muted);
+      font-size: 12px;
       line-height: 1.55;
+    }
+
+    .scope-square-proposal {
+      border-color: var(--gold-deep);
+    }
+
+    @media (max-width: 800px) {
+      .scope-track {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .scope-square:nth-child(4n)::after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .scope-track {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .scope-square {
+        padding: 14px 12px;
+      }
+
+      .scope-square::after {
+        right: -12px;
+        width: 12px;
+      }
+
+      .scope-square:nth-child(4n)::after {
+        display: block;
+      }
+
+      .scope-square:nth-child(2n)::after {
+        display: none;
+      }
     }
 
     @media (max-width: 800px) {
@@ -1053,10 +1146,6 @@
         font-size: 18px;
       }
 
-      .approach-statement {
-        font-size: 20px;
-      }
-
       .regional-mark {
         min-height: 150px;
       }
@@ -1121,6 +1210,7 @@
       <a href="#regional">Geographic Perspective</a>
       <a href="#strategic-consulting">Strategic Consulting</a>
       <a href="#consulting-project-management">Consulting &amp; Project Management</a>
+      <a href="#scope-proposal">Scope &amp; Proposal</a>
       <a href="#instagram">Instagram</a>
     </div>
   </nav>
@@ -1481,8 +1571,53 @@
           <p><strong>Outcome-focused.</strong> The objective is to produce useful analysis, decisions, plans, or other clearly defined results.</p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <p class="approach-statement">Selective strategic engagements for complex challenges, available through direct introduction.</p>
+  <section id="scope-proposal" aria-labelledby="scope-title">
+    <div class="section-inner">
+      <div class="section-label">05 — Scope &amp; Proposal</div>
+      <h2 id="scope-title">From Initial Assessment to a Defined Engagement</h2>
+
+      <div class="scope-modules">
+        <ol class="scope-track">
+          <li class="scope-square">
+            <span class="scope-square-number">01</span>
+            <h3>ASSESSMENT</h3>
+            <p>Understand the matter</p>
+          </li>
+          <li class="scope-square">
+            <span class="scope-square-number">02</span>
+            <h3>SCOPE</h3>
+            <p>Define the work</p>
+          </li>
+          <li class="scope-square scope-square-proposal">
+            <span class="scope-square-number">03</span>
+            <h3>PROPOSAL</h3>
+            <p>Establish the engagement</p>
+          </li>
+          <li class="scope-square">
+            <span class="scope-square-number">04</span>
+            <h3>REVIEW</h3>
+            <p>Discuss scope and terms</p>
+          </li>
+          <li class="scope-square">
+            <span class="scope-square-number">05</span>
+            <h3>AGREEMENT</h3>
+            <p>Confirm the engagement</p>
+          </li>
+          <li class="scope-square">
+            <span class="scope-square-number">06</span>
+            <h3>ONBOARDING</h3>
+            <p>Begin the work</p>
+          </li>
+          <li class="scope-square">
+            <span class="scope-square-number">07</span>
+            <h3>EXECUTION</h3>
+            <p>Conduct the work</p>
+          </li>
+        </ol>
+      </div>
     </div>
   </section>
 
@@ -1548,6 +1683,7 @@
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeMenu();
   });
+
 </script>
 
 </body>
