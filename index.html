@@ -654,6 +654,60 @@
       letter-spacing: 1.5px;
     }
 
+    .service-signature {
+      position: relative;
+      display: grid;
+      width: min(100%, 420px);
+      aspect-ratio: 1;
+      place-items: center;
+      margin-top: 36px;
+      padding: 48px;
+      overflow: hidden;
+      border: 1px solid rgba(214, 181, 109, 0.36);
+      background:
+        radial-gradient(circle at 50% 44%, rgba(214, 181, 109, 0.08), transparent 42%),
+        linear-gradient(145deg, #102839, #0b1925 68%, #07111f);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .service-signature::before {
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(214, 181, 109, 0.16);
+      content: "";
+      pointer-events: none;
+    }
+
+    .service-signature figcaption {
+      position: relative;
+      display: grid;
+      justify-items: center;
+    }
+
+    .service-signature-title {
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.25;
+    }
+
+    .service-signature-title::after {
+      display: block;
+      width: 34px;
+      height: 1px;
+      margin: 19px auto 15px;
+      background: rgba(214, 181, 109, 0.72);
+      content: "";
+    }
+
+    .service-signature-description {
+      color: #c1cbd0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
     .service-intro {
       max-width: 660px;
       color: var(--ink);
@@ -1550,6 +1604,12 @@
           <div class="section-label">04 — Selective Engagements</div>
           <h2 class="service-title" id="service-title">Areas of Strategic Perspective</h2>
           <span class="service-badge">BY REFERRAL</span>
+          <figure class="service-signature" aria-label="THE UNSEEN LAYER: Perspective beyond the visible.">
+            <figcaption>
+              <span class="service-signature-title">THE UNSEEN LAYER</span>
+              <span class="service-signature-description">Perspective beyond the visible.</span>
+            </figcaption>
+          </figure>
         </div>
 
         <div class="service-details">
