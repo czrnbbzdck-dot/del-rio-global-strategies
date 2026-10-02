@@ -906,32 +906,71 @@
       font-weight: 400;
     }
 
-    .scope-modules {
+    .scope-intro {
+      max-width: 800px;
+      color: var(--body-muted);
+      font-size: 17px;
+    }
+
+    .scope-scroll {
       margin-top: 42px;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+      scrollbar-color: rgba(118, 91, 44, 0.5) transparent;
+      scrollbar-width: thin;
+      cursor: grab;
+    }
+
+    .scope-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .scope-scroll::-webkit-scrollbar-thumb {
+      background: rgba(118, 91, 44, 0.5);
+    }
+
+    .scope-scroll.is-dragging {
+      cursor: grabbing;
+      user-select: none;
     }
 
     .scope-track {
       position: relative;
       display: grid;
-      grid-template-columns: repeat(7, minmax(0, 1fr));
-      gap: 14px;
-      width: 100%;
+      grid-auto-columns: 156px;
+      grid-auto-flow: column;
+      gap: 18px;
+      width: max-content;
+      min-width: 100%;
       padding: 4px 2px 12px;
       list-style: none;
+    }
+
+    .scope-track::before {
+      position: absolute;
+      top: 82px;
+      right: 0;
+      left: 0;
+      height: 1px;
+      background: rgba(214, 181, 109, 0.75);
+      content: "";
     }
 
     .scope-square {
       position: relative;
       z-index: 1;
       display: flex;
-      width: 100%;
-      min-width: 0;
-      aspect-ratio: 1;
+      width: 156px;
+      height: 156px;
+      flex: 0 0 156px;
       flex-direction: column;
       align-items: flex-start;
       padding: 14px 10px;
       border: 1px solid var(--ink);
       background: #fff;
+      scroll-snap-align: start;
     }
 
     .scope-square::after {
@@ -942,11 +981,6 @@
       height: 1px;
       background: rgba(214, 181, 109, 0.75);
       content: "";
-    }
-
-    .scope-square:last-child::after,
-    .scope-square:nth-child(7n)::after {
-      display: none;
     }
 
     .scope-square-number {
@@ -976,36 +1010,24 @@
     }
 
     @media (max-width: 800px) {
-      .scope-track {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-
-      .scope-square:nth-child(4n)::after {
-        display: none;
+      .scope-scroll {
+        margin-right: -24px;
+        margin-left: -24px;
+        padding-right: 24px;
+        padding-left: 24px;
       }
     }
 
     @media (max-width: 600px) {
-      .scope-track {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
+      .scope-scroll {
+        margin-right: -22px;
+        margin-left: -22px;
+        padding-right: 22px;
+        padding-left: 22px;
       }
 
       .scope-square {
         padding: 14px 12px;
-      }
-
-      .scope-square::after {
-        right: -12px;
-        width: 12px;
-      }
-
-      .scope-square:nth-child(4n)::after {
-        display: block;
-      }
-
-      .scope-square:nth-child(2n)::after {
-        display: none;
       }
     }
 
@@ -1162,6 +1184,10 @@
 
     @media (prefers-reduced-motion: reduce) {
       html {
+        scroll-behavior: auto;
+      }
+
+      .scope-scroll {
         scroll-behavior: auto;
       }
 
@@ -1578,8 +1604,9 @@
     <div class="section-inner">
       <div class="section-label">05 — Scope &amp; Proposal</div>
       <h2 id="scope-title">From Initial Assessment to a Defined Engagement</h2>
+      <p class="scope-intro">Once the matter has been sufficiently understood, Del Rio Global Strategies may develop a written proposal defining the appropriate scope, structure, and expected outcomes of the engagement.</p>
 
-      <div class="scope-modules">
+      <div class="scope-scroll" role="region" aria-label="Engagement process stages" tabindex="0">
         <ol class="scope-track">
           <li class="scope-square">
             <span class="scope-square-number">01</span>
@@ -1616,8 +1643,14 @@
             <h3>EXECUTION</h3>
             <p>Conduct the work</p>
           </li>
+          <li class="scope-square">
+            <span class="scope-square-number">08</span>
+            <h3>DELIVERY &amp;<br>CONTINUITY</h3>
+            <p>Final delivery, review, and determination of what comes next.</p>
+          </li>
         </ol>
       </div>
+
     </div>
   </section>
 
@@ -1683,6 +1716,38 @@
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeMenu();
   });
+
+  const scopeScroll = document.querySelector(".scope-scroll");
+
+  if (scopeScroll) {
+    let dragStartX = 0;
+    let dragStartScroll = 0;
+    let isDragging = false;
+
+    scopeScroll.addEventListener("pointerdown", (event) => {
+      if (event.pointerType !== "mouse" || event.button !== 0) return;
+      isDragging = true;
+      dragStartX = event.clientX;
+      dragStartScroll = scopeScroll.scrollLeft;
+      scopeScroll.classList.add("is-dragging");
+      scopeScroll.setPointerCapture(event.pointerId);
+    });
+
+    scopeScroll.addEventListener("pointermove", (event) => {
+      if (isDragging) {
+        scopeScroll.scrollLeft = dragStartScroll - (event.clientX - dragStartX);
+      }
+    });
+
+    const endScopeDrag = () => {
+      isDragging = false;
+      scopeScroll.classList.remove("is-dragging");
+    };
+
+    scopeScroll.addEventListener("pointerup", endScopeDrag);
+    scopeScroll.addEventListener("pointercancel", endScopeDrag);
+    scopeScroll.addEventListener("lostpointercapture", endScopeDrag);
+  }
 
 </script>
 
