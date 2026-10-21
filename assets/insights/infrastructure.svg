@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 875" fill="none">
-  <g stroke="#bfa06b" stroke-linecap="square" stroke-linejoin="miter">
+  <g transform="translate(-60 0)" stroke="#bfa06b" stroke-linecap="square" stroke-linejoin="miter">
     <path d="M92 188h516M92 258h516M92 328h516M92 398h516M92 468h516M92 538h516M92 608h516" stroke-opacity=".2" stroke-width=".9" stroke-dasharray="3 8"/>
     <path d="M142 154v484m104-484v484m104-484v484m104-484v484m104-484v484" stroke-opacity=".18" stroke-width=".9" stroke-dasharray="3 8"/>
     <path d="M350 151v484m-222 0h444m-392 0V359l85-74 85 74v276m30 0V270l85-100 85 100v365m29 0V389l68-59 68 59v246" stroke-opacity=".82" stroke-width="1.4"/>
@@ -8,7 +8,7 @@
     <path d="M350 170v-28m-222 493v26h444v-26m-392-276h-24m467-19h-24" stroke-opacity=".62" stroke-width="1.1"/>
     <path d="M108 690h484m0 8H420" stroke-opacity=".7" stroke-width="1.1"/>
   </g>
-  <g stroke="#bfa06b" stroke-width="1.15" stroke-opacity=".86">
+  <g transform="translate(-60 0)" stroke="#bfa06b" stroke-width="1.15" stroke-opacity=".86">
     <path d="M350 170v100m-53 66 53-66 53 66m-222 23 85-74 85 74m114-94 85 94m29 19 68-59 68 59"/>
   </g>
 </svg>
