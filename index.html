@@ -1574,6 +1574,460 @@
         padding-left: 22px;
       }
     }
+
+    :root {
+      --navy: #07111f;
+      --navy-light: #0a1729;
+      --navy-deep: #050c16;
+      --gold: #bfa06b;
+      --gold-light: #d5c49e;
+      --gold-muted: #9c845b;
+      --paper: #f3f0e8;
+      --white: #f3f0e8;
+      --muted: #c7d0dc;
+      --line: rgba(191, 160, 107, 0.22);
+    }
+
+    body,
+    .page {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .top-menu,
+    .hero,
+    #about,
+    #regional,
+    #consulting-project-management,
+    footer {
+      background-color: var(--navy);
+    }
+
+    .hero {
+      padding-top: clamp(68px, 8vw, 98px);
+      padding-bottom: clamp(64px, 7.5vw, 90px);
+      background-image: linear-gradient(115deg, rgba(191, 160, 107, 0.025), transparent 52%);
+    }
+
+    .hero::before {
+      top: -190px;
+      right: max(12px, calc((100% - 1176px) / 2));
+      width: 420px;
+      height: 420px;
+      transform: rotate(-22deg) scaleY(0.52);
+      border-color: rgba(191, 160, 107, 0.13);
+    }
+
+    .hero::after {
+      top: 72px;
+      right: max(44px, calc((100% - 1120px) / 2));
+      width: 210px;
+      background: linear-gradient(90deg, transparent, rgba(191, 160, 107, 0.28));
+    }
+
+    .hero-layout {
+      align-items: center;
+      gap: clamp(32px, 7vw, 88px);
+    }
+
+    .hero-copy {
+      max-width: 900px;
+    }
+
+    h1 {
+      max-width: 820px;
+      font-size: clamp(46px, 7vw, 78px);
+      line-height: 1.08;
+      letter-spacing: -0.025em;
+    }
+
+    .eyebrow,
+    .hero-aside-label,
+    .section-label,
+    .service-badge {
+      letter-spacing: 0.16em;
+    }
+
+    .hero-description {
+      max-width: 660px;
+      color: #c7d0dc;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    .hero-note {
+      color: #c7d0dc;
+    }
+
+    .hero-editorial {
+      color: var(--gold-light);
+      font-size: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    .hero-aside {
+      border-left-color: rgba(191, 160, 107, 0.42);
+    }
+
+    .hero-aside-label {
+      color: var(--gold-light);
+    }
+
+    .hero-aside p {
+      color: #c7d0dc;
+      font-size: 20px;
+      line-height: 1.65;
+    }
+
+    section {
+      border-top-color: rgba(191, 160, 107, 0.2);
+    }
+
+    #about,
+    #regional,
+    #consulting-project-management {
+      color: var(--white);
+    }
+
+    #about h2,
+    #consulting-project-management h2,
+    #regional h2 {
+      color: var(--white);
+      font-size: clamp(34px, 4.2vw, 46px);
+      line-height: 1.2;
+    }
+
+    #about .section-label,
+    #consulting-project-management .section-label,
+    #consulting-project-management .engagement-principles h3 {
+      color: var(--gold-light);
+    }
+
+    #about .about-text p,
+    #about .interdisciplinary p,
+    #regional .regional-text p,
+    #consulting-project-management .approach-step p,
+    #consulting-project-management .engagement-principles p {
+      color: #c7d0dc;
+    }
+
+    #about .principle {
+      border-left: 1px solid var(--gold);
+      background: var(--navy-light);
+    }
+
+    #about .principle strong,
+    #consulting-project-management .principles-grid strong {
+      color: var(--white);
+    }
+
+    #about .principle p {
+      color: #c7d0dc;
+    }
+
+    #about .interdisciplinary {
+      padding-top: 24px;
+      border-top: 1px solid rgba(191, 160, 107, 0.2);
+    }
+
+    #about .interdisciplinary h3,
+    #consulting-project-management .approach-step h3 span {
+      color: var(--gold);
+    }
+
+    #focus,
+    #strategic-consulting,
+    #scope-proposal {
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    #focus .section-inner,
+    #strategic-consulting .section-inner,
+    #scope-proposal .section-inner {
+      padding-top: clamp(58px, 7vw, 88px);
+      padding-bottom: clamp(58px, 7vw, 88px);
+    }
+
+    #focus .section-label,
+    #strategic-consulting .section-label,
+    #scope-proposal .section-label {
+      color: var(--gold-deep);
+    }
+
+    #focus h2,
+    #strategic-consulting h2,
+    #scope-proposal h2 {
+      color: var(--ink);
+      font-size: clamp(34px, 4vw, 44px);
+      line-height: 1.2;
+    }
+
+    .focus-grid {
+      column-gap: clamp(24px, 3.5vw, 40px);
+      row-gap: clamp(24px, 3.2vw, 36px);
+      margin-top: 46px;
+    }
+
+    .focus-card {
+      padding-top: 24px;
+      border-top-color: rgba(10, 23, 41, 0.24);
+      transition: border-color 0.2s ease;
+    }
+
+    .focus-card:hover {
+      border-color: var(--gold-muted);
+      transform: none;
+    }
+
+    .focus-card h3 {
+      color: var(--ink);
+      font-size: 21px;
+      line-height: 1.35;
+    }
+
+    .focus-card p,
+    #focus .intro,
+    .service-note,
+    .service-topics li,
+    .scope-intro {
+      color: var(--body-muted);
+    }
+
+    .focus-card p {
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .number,
+    .service-topics li::marker {
+      color: var(--gold-deep);
+    }
+
+    .focus-logo {
+      margin-top: 54px;
+    }
+
+    .regional {
+      border-top-color: rgba(191, 160, 107, 0.2);
+      background: var(--navy);
+    }
+
+    .regional-mark {
+      border-left-color: var(--gold-muted);
+    }
+
+    .regional-mark strong,
+    .regional h2 {
+      color: var(--gold-light);
+    }
+
+    .regional-mark span {
+      color: #c7d0dc;
+    }
+
+    .service-grid {
+      gap: clamp(36px, 6vw, 76px);
+    }
+
+    .service-badge {
+      color: var(--gold-deep);
+      font-size: 10px;
+    }
+
+    .service-signature {
+      width: min(100%, 480px);
+      aspect-ratio: 1.12 / 0.9;
+      margin-top: 32px;
+      padding: clamp(28px, 5vw, 54px);
+      border-color: rgba(191, 160, 107, 0.3);
+      background: var(--navy-deep);
+    }
+
+    .service-signature::before {
+      inset: 18px;
+      border-color: rgba(191, 160, 107, 0.18);
+    }
+
+    .service-signature::after {
+      position: absolute;
+      width: 72%;
+      height: 45%;
+      border: 1px solid rgba(191, 160, 107, 0.1);
+      border-radius: 50%;
+      transform: rotate(-24deg);
+      content: "";
+      pointer-events: none;
+    }
+
+    .service-signature figcaption {
+      z-index: 1;
+    }
+
+    .service-signature-title {
+      color: var(--gold-light);
+      font-size: clamp(22px, 2.6vw, 28px);
+      letter-spacing: 0.09em;
+    }
+
+    .service-signature-description {
+      color: #c7d0dc;
+    }
+
+    .service-intro {
+      color: var(--ink);
+      font-size: clamp(20px, 2.2vw, 23px);
+      line-height: 1.65;
+    }
+
+    .service-note {
+      max-width: 620px;
+      line-height: 1.8;
+    }
+
+    .service-topics {
+      border-top-color: rgba(10, 23, 41, 0.24);
+      gap: 12px 28px;
+    }
+
+    .service-topics li {
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .service-topic-description {
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .visual-gallery {
+      border-top-color: rgba(191, 160, 107, 0.24);
+      background: var(--paper);
+    }
+
+    .visual-gallery img {
+      border-color: rgba(10, 23, 41, 0.18);
+    }
+
+    #consulting-project-management .approach-grid {
+      gap: clamp(32px, 5vw, 58px);
+    }
+
+    #consulting-project-management .approach-step {
+      padding: 24px 0 26px;
+      border-top-color: rgba(191, 160, 107, 0.25);
+    }
+
+    #consulting-project-management .approach-step:hover {
+      border-top-color: var(--gold);
+    }
+
+    #consulting-project-management .approach-step h3 {
+      color: var(--white);
+      font-size: 19px;
+      line-height: 1.45;
+    }
+
+    #consulting-project-management .approach-step p,
+    #consulting-project-management .engagement-principles p {
+      font-size: 15px;
+      line-height: 1.85;
+    }
+
+    #consulting-project-management .engagement-principles {
+      padding-top: 28px;
+      border-top: 1px solid rgba(191, 160, 107, 0.2);
+    }
+
+    #consulting-project-management .engagement-principles h3 {
+      letter-spacing: 0.16em;
+    }
+
+    .scope-square {
+      border-color: rgba(10, 23, 41, 0.5);
+      background: #fffdf8;
+    }
+
+    .scope-square-proposal {
+      border-color: var(--gold-deep);
+    }
+
+    .scope-track::before,
+    .scope-square::after {
+      background: rgba(156, 132, 91, 0.58);
+    }
+
+    .top-menu {
+      border-bottom-color: rgba(191, 160, 107, 0.2);
+    }
+
+    .menu-toggle,
+    .footer-instagram {
+      width: 44px;
+      height: 44px;
+    }
+
+    .footer-instagram {
+      flex-basis: 44px;
+    }
+
+    .top-menu a {
+      min-height: 44px;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 5px var(--navy-deep);
+    }
+
+    .skip-link:focus {
+      background: var(--paper);
+      color: var(--navy);
+    }
+
+    @media (max-width: 800px) {
+      .hero-layout {
+        grid-template-columns: minmax(0, 1fr) minmax(150px, 190px);
+        gap: clamp(24px, 5vw, 38px);
+      }
+
+      #focus .section-inner,
+      #strategic-consulting .section-inner,
+      #scope-proposal .section-inner {
+        padding-right: 24px;
+        padding-left: 24px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .hero-aside {
+        max-width: 310px;
+      }
+
+      .hero::before {
+        right: -220px;
+        width: 360px;
+        height: 360px;
+      }
+
+      .service-signature {
+        width: 100%;
+        aspect-ratio: 1.1 / 0.9;
+      }
+
+      #focus .section-inner,
+      #strategic-consulting .section-inner,
+      #scope-proposal .section-inner {
+        padding-right: 22px;
+        padding-left: 22px;
+      }
+    }
+
   </style>
   <script type="application/ld+json">
     {
