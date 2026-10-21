@@ -27,17 +27,19 @@
 
   <style>
     :root {
-      --navy: #0b1925;
-      --navy-light: #142839;
-      --gold: #d6b56d;
-      --gold-light: #f0d995;
+      --navy: #0a1729;
+      --navy-light: #13243a;
+      --navy-deep: #07111f;
+      --gold: #bfa06b;
+      --gold-light: #d5c49e;
+      --gold-muted: #9c845b;
       --gold-deep: #765b2c;
-      --paper: #f3f4f1;
+      --paper: #f3f0e8;
       --ink: #192630;
       --body-muted: #53616a;
-      --white: #f3f4f1;
-      --muted: #aeb8c5;
-      --line: rgba(214, 181, 109, 0.28);
+      --white: #f3f0e8;
+      --muted: #c7d0dc;
+      --line: rgba(191, 160, 107, 0.26);
       --panel: rgba(255, 255, 255, 0.045);
     }
 
@@ -58,8 +60,8 @@
         BlinkMacSystemFont,
         "Segoe UI",
         sans-serif;
-      background: var(--paper);
-      color: var(--ink);
+      background: var(--navy);
+      color: var(--white);
       line-height: 1.7;
     }
 
@@ -70,7 +72,7 @@
 
     .page {
       min-height: 100vh;
-      background: var(--paper);
+      background: var(--navy);
     }
 
     /* NAVIGATION */
@@ -398,7 +400,7 @@
       padding: 96px max(28px, calc((100% - 1176px) / 2)) 88px;
       position: relative;
       overflow: hidden;
-      background: linear-gradient(115deg, rgba(214, 181, 109, 0.08), transparent 48%), var(--navy);
+      background: linear-gradient(115deg, rgba(191, 160, 107, 0.045), transparent 48%), var(--navy);
       color: var(--white);
     }
 
@@ -409,7 +411,7 @@
       width: 360px;
       height: 360px;
       transform: rotate(-22deg) scaleY(0.58);
-      border: 1px solid rgba(214, 181, 109, 0.28);
+      border: 1px solid rgba(191, 160, 107, 0.22);
       border-radius: 50%;
       content: "";
       pointer-events: none;
@@ -423,7 +425,7 @@
       height: 1px;
       transform: rotate(-28deg);
       transform-origin: right center;
-      background: linear-gradient(90deg, transparent, rgba(214, 181, 109, 0.62));
+      background: linear-gradient(90deg, transparent, rgba(191, 160, 107, 0.48));
       content: "";
       pointer-events: none;
     }
@@ -444,7 +446,7 @@
     }
 
     .hero-aside {
-      border-left: 1px solid rgba(214, 181, 109, 0.55);
+      border-left: 1px solid rgba(191, 160, 107, 0.5);
       padding: 8px 0 8px 24px;
       animation: hero-arrive 0.8s 0.12s ease-out both;
     }
@@ -558,7 +560,7 @@
 
     .principle {
       padding: 26px 28px;
-      background: var(--navy);
+      background: var(--navy-light);
     }
 
     .principle strong {
@@ -697,10 +699,10 @@
       margin-top: 36px;
       padding: 48px;
       overflow: hidden;
-      border: 1px solid rgba(214, 181, 109, 0.36);
+      border: 1px solid rgba(191, 160, 107, 0.34);
       background:
-        radial-gradient(circle at 50% 44%, rgba(214, 181, 109, 0.08), transparent 42%),
-        linear-gradient(145deg, #102839, #0b1925 68%, #07111f);
+        radial-gradient(circle at 50% 44%, rgba(191, 160, 107, 0.055), transparent 42%),
+        linear-gradient(145deg, var(--navy-light), var(--navy) 68%, var(--navy-deep));
       color: var(--white);
       text-align: center;
     }
@@ -731,7 +733,7 @@
       width: 34px;
       height: 1px;
       margin: 19px auto 15px;
-      background: rgba(214, 181, 109, 0.72);
+      background: rgba(191, 160, 107, 0.65);
       content: "";
     }
 
@@ -790,7 +792,7 @@
     }
 
     footer {
-      border-top: 1px solid rgba(214, 181, 109, 0.3);
+      border-top: 1px solid rgba(191, 160, 107, 0.3);
       background: var(--navy);
     }
 
@@ -844,7 +846,7 @@
       flex: 0 0 36px;
       align-items: center;
       justify-content: center;
-      border: 1px solid rgba(214, 181, 109, 0.55);
+      border: 1px solid rgba(191, 160, 107, 0.55);
       color: var(--gold-light);
       transition: background-color 0.2s ease, color 0.2s ease;
     }
@@ -868,7 +870,7 @@
       max-width: 1296px;
       margin: 0 auto;
       padding: 58px 32px;
-      border-top: 1px solid rgba(214, 181, 109, 0.35);
+      border-top: 1px solid rgba(191, 160, 107, 0.32);
       background: var(--paper);
     }
 
@@ -952,7 +954,7 @@
       width: 100%;
       height: auto;
       aspect-ratio: 4 / 5;
-      border: 1px solid rgba(214, 181, 109, 0.32);
+      border: 1px solid rgba(191, 160, 107, 0.28);
       object-fit: contain;
     }
 
@@ -1073,7 +1075,7 @@
       right: 0;
       left: 0;
       height: 1px;
-      background: rgba(214, 181, 109, 0.75);
+      background: rgba(191, 160, 107, 0.68);
       content: "";
     }
 
@@ -1098,7 +1100,7 @@
       right: -14px;
       width: 14px;
       height: 1px;
-      background: rgba(214, 181, 109, 0.75);
+      background: rgba(191, 160, 107, 0.68);
       content: "";
     }
 
@@ -1321,6 +1323,255 @@
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
+      }
+    }
+
+    body,
+    .page {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    #about,
+    #regional,
+    #consulting-project-management {
+      border-top-color: rgba(191, 160, 107, 0.22);
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    #about h2,
+    #consulting-project-management h2 {
+      color: var(--white);
+    }
+
+    #about .section-label,
+    #consulting-project-management .engagement-principles h3 {
+      color: var(--gold);
+    }
+
+    #about .about-text p,
+    #about .interdisciplinary p,
+    #consulting-project-management .approach-step p,
+    #consulting-project-management .engagement-principles p {
+      color: var(--muted);
+    }
+
+    #about .interdisciplinary h3,
+    #consulting-project-management .approach-step h3 span {
+      color: var(--gold);
+    }
+
+    #about .principle {
+      border-left-color: var(--gold);
+      background: var(--navy-light);
+    }
+
+    #about .principle strong,
+    #consulting-project-management .principles-grid strong {
+      color: var(--white);
+    }
+
+    #about .principle p {
+      color: var(--muted);
+    }
+
+    #focus,
+    #strategic-consulting,
+    #scope-proposal {
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    #focus .section-inner,
+    #strategic-consulting .section-inner,
+    #scope-proposal .section-inner {
+      padding-top: clamp(56px, 7vw, 86px);
+      padding-bottom: clamp(56px, 7vw, 86px);
+    }
+
+    #focus .section-label,
+    #strategic-consulting .section-label,
+    #scope-proposal .section-label {
+      color: var(--gold-deep);
+    }
+
+    .section-label {
+      letter-spacing: 2px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-wrap: pretty;
+    }
+
+    .hero {
+      padding-top: clamp(68px, 8vw, 96px);
+      padding-bottom: clamp(64px, 7.5vw, 88px);
+    }
+
+    h1 {
+      max-width: 860px;
+      font-size: clamp(44px, 7vw, 76px);
+      line-height: 1.08;
+    }
+
+    h2 {
+      font-size: clamp(34px, 4vw, 44px);
+      line-height: 1.18;
+    }
+
+    .hero-description,
+    .intro,
+    .about-text p,
+    .regional-text p,
+    .service-intro,
+    .service-note,
+    .service-topics li,
+    .approach-step p,
+    .engagement-principles p,
+    .scope-intro {
+      text-wrap: pretty;
+    }
+
+    .focus-grid {
+      column-gap: clamp(24px, 3vw, 36px);
+      row-gap: clamp(22px, 3vw, 32px);
+    }
+
+    .focus-card {
+      padding-top: 24px;
+      transition: border-color 0.2s ease;
+    }
+
+    .focus-card:hover {
+      transform: none;
+    }
+
+    .focus-card h3 {
+      font-size: 21px;
+      line-height: 1.35;
+    }
+
+    .focus-card p {
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .service-signature {
+      background:
+        radial-gradient(circle at 50% 44%, rgba(191, 160, 107, 0.045), transparent 42%),
+        linear-gradient(145deg, var(--navy-light), var(--navy) 68%, var(--navy-deep));
+    }
+
+    .service-topic-description,
+    .scope-square p {
+      font-size: 13px;
+    }
+
+    .visual-gallery {
+      background: var(--paper);
+    }
+
+    #consulting-project-management .approach-grid {
+      gap: clamp(32px, 5vw, 54px);
+    }
+
+    #consulting-project-management .approach-step {
+      border-top-color: rgba(191, 160, 107, 0.28);
+    }
+
+    #consulting-project-management .approach-step:hover {
+      border-top-color: var(--gold);
+    }
+
+    #consulting-project-management .approach-step h3 {
+      color: var(--white);
+      font-size: 19px;
+    }
+
+    #consulting-project-management .engagement-principles {
+      padding-top: 26px;
+      border-top: 1px solid rgba(191, 160, 107, 0.22);
+    }
+
+    .scope-square {
+      border-color: rgba(10, 23, 41, 0.55);
+      background: #fffdf8;
+    }
+
+    .scope-square-proposal {
+      border-color: var(--gold-deep);
+    }
+
+    .top-menu {
+      border-bottom-color: rgba(191, 160, 107, 0.22);
+    }
+
+    .menu-toggle,
+    .footer-instagram {
+      width: 44px;
+      height: 44px;
+    }
+
+    .footer-instagram {
+      flex-basis: 44px;
+    }
+
+    .top-menu a {
+      min-height: 44px;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 5px var(--navy);
+    }
+
+    .skip-link:focus {
+      outline-color: var(--gold);
+      background: var(--paper);
+    }
+
+    .footer-back-to-top,
+    .footer-instagram {
+      color: #d5c49e;
+    }
+
+    .footer-instagram:hover {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    @media (max-width: 800px) {
+      .hero-layout {
+        grid-template-columns: minmax(0, 1fr) minmax(150px, 190px);
+        gap: clamp(24px, 5vw, 36px);
+      }
+
+      #focus .section-inner,
+      #strategic-consulting .section-inner,
+      #scope-proposal .section-inner {
+        padding-right: 24px;
+        padding-left: 24px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .hero-aside {
+        max-width: 310px;
+      }
+
+      #focus .section-inner,
+      #strategic-consulting .section-inner,
+      #scope-proposal .section-inner {
+        padding-right: 22px;
+        padding-left: 22px;
       }
     }
   </style>
@@ -1697,8 +1948,6 @@
 
     </section>
 
-  </main>
-
   <section class="visual-gallery" aria-hidden="true">
     <img src="assets/insights/strategy.svg" alt="" width="700" height="875" loading="lazy">
     <img src="assets/insights/infrastructure.svg" alt="" width="700" height="875" loading="lazy">
@@ -1814,6 +2063,8 @@
 
     </div>
   </section>
+
+  </main>
 
   <footer aria-label="Site footer">
 
