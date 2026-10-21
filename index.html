@@ -2024,6 +2024,52 @@
       }
     }
 
+    .visual-gallery {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      justify-items: center;
+      align-items: center;
+    }
+
+    .visual-gallery img {
+      width: 100%;
+      max-width: 395px;
+      height: auto;
+      justify-self: center;
+      align-self: center;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    @media (min-width: 601px) and (max-width: 800px) {
+      .visual-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        align-items: center;
+      }
+
+      .visual-gallery img:last-child {
+        grid-column: 1 / -1;
+        width: min(100%, calc((100% - 18px) / 2));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .visual-gallery {
+        grid-template-columns: minmax(0, 1fr);
+        justify-items: center;
+        align-items: center;
+      }
+
+      .visual-gallery img {
+        width: min(100%, 370px);
+        max-width: 100%;
+      }
+
+      .visual-gallery img:last-child {
+        grid-column: auto;
+      }
+    }
+
   </style>
   <script type="application/ld+json">
     {
@@ -2399,9 +2445,9 @@
     </section>
 
   <section class="visual-gallery" aria-hidden="true">
-    <img src="assets/insights/strategy.svg?v=2.2.1-graphics" alt="" width="700" height="875" loading="lazy">
-    <img src="assets/insights/infrastructure.svg?v=2.2.1-graphics" alt="" width="700" height="875" loading="lazy">
-    <img src="assets/insights/technology.svg?v=2.2.1-graphics" alt="" width="700" height="875" loading="lazy">
+    <img src="assets/insights/strategy.svg?v=2.2.2-alignment" alt="" width="700" height="875" loading="lazy">
+    <img src="assets/insights/infrastructure.svg?v=2.2.2-alignment" alt="" width="700" height="875" loading="lazy">
+    <img src="assets/insights/technology.svg?v=2.2.2-alignment" alt="" width="700" height="875" loading="lazy">
   </section>
 
   <section id="consulting-project-management" aria-labelledby="approach-title">
