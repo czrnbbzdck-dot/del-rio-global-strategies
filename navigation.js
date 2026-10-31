@@ -1,75 +1,70 @@
 const menuToggle = document.querySelector(".menu-toggle");
-const primaryNavigation = document.querySelector("#primary-navigation");
+  const menuLinks = document.querySelector("#top-menu-links");
 
-const setMenuOpen = (isOpen, restoreFocus = false) => {
-  menuToggle.setAttribute("aria-expanded", String(isOpen));
-  primaryNavigation.classList.toggle("is-open", isOpen);
-  if (restoreFocus) menuToggle.focus();
-};
+  const desktopMenu = window.matchMedia("(min-width: 1200px)");
 
-menuToggle.addEventListener("click", () => {
-  setMenuOpen(menuToggle.getAttribute("aria-expanded") !== "true");
-});
+  const closeMenu = (restoreFocus = false) => {
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation menu");
+    menuLinks.hidden = !desktopMenu.matches;
+    if (restoreFocus) menuToggle.focus();
+  };
 
-primaryNavigation.addEventListener("click", (event) => {
-  if (event.target.closest("a")) setMenuOpen(false);
-});
+  menuToggle.addEventListener("click", () => {
+    const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+    menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+    menuToggle.setAttribute("aria-label", isExpanded ? "Open navigation menu" : "Close navigation menu");
+    menuLinks.hidden = isExpanded;
+  });
 
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && menuToggle.getAttribute("aria-expanded") === "true") {
-    setMenuOpen(false, true);
-  }
-});
+  menuLinks.addEventListener("click", (event) => {
+    if (event.target.closest("a")) closeMenu();
+  });
 
-document.addEventListener("click", (event) => {
-  if (!event.target.closest(".site-header") && menuToggle.getAttribute("aria-expanded") === "true") {
-    setMenuOpen(false, primaryNavigation.contains(document.activeElement));
-  }
-});
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !desktopMenu.matches && menuToggle.getAttribute("aria-expanded") === "true") closeMenu(true);
+  });
 
-const filterButtons = [...document.querySelectorAll(".filter-button")];
-const researchSearch = document.querySelector("#research-search");
-const outlookCards = [...document.querySelectorAll(".outlook-card")];
-const researchResults = document.querySelector("#research-results");
-let activeSector = "all";
-
-const filterPublications = () => {
-  const query = researchSearch.value.trim().toLocaleLowerCase();
-  let visibleCount = 0;
-
-  for (const card of outlookCards) {
-    const matchesSector = activeSector === "all" || card.dataset.sector === activeSector;
-    const matchesSearch = !query || card.textContent.toLocaleLowerCase().includes(query);
-    card.hidden = !matchesSector || !matchesSearch;
-    if (!card.hidden) visibleCount += 1;
-  }
-
-  researchResults.textContent = visibleCount === 1
-    ? "Showing 1 publication."
-    : `Showing ${visibleCount} publications.`;
-};
-
-for (const button of filterButtons) {
-  button.addEventListener("click", () => {
-    activeSector = button.dataset.sector;
-    for (const filterButton of filterButtons) {
-      const isActive = filterButton === button;
-      filterButton.classList.toggle("is-active", isActive);
-      filterButton.setAttribute("aria-pressed", String(isActive));
+  const syncMenu = () => {
+    const hadFocus = menuLinks.contains(document.activeElement);
+    closeMenu(hadFocus && !desktopMenu.matches);
+  };
+  desktopMenu.addEventListener("change", syncMenu);
+  syncMenu();
+  document.addEventListener("click", (event) => {
+    if (!desktopMenu.matches && !event.target.closest(".top-menu")) {
+      closeMenu(menuLinks.contains(document.activeElement));
     }
-    filterPublications();
   });
-}
 
-researchSearch.addEventListener("input", filterPublications);
+  const scopeScroll = document.querySelector(".scope-scroll");
 
-for (const openButton of document.querySelectorAll("[data-dialog-target]")) {
-  const dialog = document.getElementById(openButton.dataset.dialogTarget);
-  const closeButton = dialog.querySelector("[data-dialog-close]");
+  if (scopeScroll) {
+    let dragStartX = 0;
+    let dragStartScroll = 0;
+    let isDragging = false;
 
-  openButton.addEventListener("click", () => dialog.showModal());
-  closeButton.addEventListener("click", () => dialog.close());
-  dialog.addEventListener("click", (event) => {
-    if (event.target === dialog) dialog.close();
-  });
-}
+    scopeScroll.addEventListener("pointerdown", (event) => {
+      if (event.pointerType !== "mouse" || event.button !== 0 || scopeScroll.scrollWidth <= scopeScroll.clientWidth) return;
+      isDragging = true;
+      dragStartX = event.clientX;
+      dragStartScroll = scopeScroll.scrollLeft;
+      scopeScroll.classList.add("is-dragging");
+      scopeScroll.setPointerCapture(event.pointerId);
+    });
+
+    scopeScroll.addEventListener("pointermove", (event) => {
+      if (isDragging) {
+        scopeScroll.scrollLeft = dragStartScroll - (event.clientX - dragStartX);
+      }
+    });
+
+    const endScopeDrag = () => {
+      isDragging = false;
+      scopeScroll.classList.remove("is-dragging");
+    };
+
+    scopeScroll.addEventListener("pointerup", endScopeDrag);
+    scopeScroll.addEventListener("pointercancel", endScopeDrag);
+    scopeScroll.addEventListener("lostpointercapture", endScopeDrag);
+  }
