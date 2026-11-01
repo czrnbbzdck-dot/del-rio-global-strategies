@@ -474,6 +474,7 @@ h2,
 }
 
 .briefs-section,
+.competitor-section,
 .faq-section {
   background: var(--cream);
 }
@@ -637,6 +638,15 @@ h2,
 
 .brief-features li {
   padding-left: 2px;
+}
+
+.competitor-link {
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
 }
 
 .delivery-note {
