@@ -436,6 +436,8 @@ h2,
   gap: 13px;
   color: #f1eee8;
   font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
   transition: background-color 160ms ease;
 }
 
@@ -451,11 +453,6 @@ h2,
   color: var(--gold-light);
   font-size: 11px;
   letter-spacing: 0.1em;
-}
-
-.pathway-arrow {
-  margin-left: auto;
-  color: var(--gold-light);
 }
 
 .section {
@@ -1069,13 +1066,11 @@ h2,
   padding: 4px 0;
   color: #e4e9e9;
   font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .contact-link:hover {
-  color: var(--gold-light);
-}
-
-.contact-link span {
   color: var(--gold-light);
 }
 
@@ -1196,8 +1191,9 @@ h2,
   transition: color 160ms ease;
 }
 
-.footer-navigation a span {
-  color: var(--gold-light);
+.footer-navigation a[href^="https://"] {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media (max-width: 1020px) {
