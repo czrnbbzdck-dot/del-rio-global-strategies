@@ -433,11 +433,15 @@ h2,
   padding: 12px 20px;
   border-right: 1px solid rgba(255, 255, 255, 0.12);
   align-items: center;
-  gap: 13px;
+  justify-content: center;
+  gap: 8px;
   color: #f1eee8;
   font-size: 13px;
   font-weight: 700;
+  text-align: center;
   text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
   transition: background-color 160ms ease;
 }
 
@@ -1384,15 +1388,6 @@ h2,
 
   .pathways {
     padding: 0 24px;
-    grid-template-columns: 1fr;
-  }
-
-  .pathways a,
-  .pathways a:first-child {
-    min-height: 52px;
-    padding: 9px 3px;
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
   }
 
   .section-inner,
@@ -1460,6 +1455,20 @@ h2,
 
   .global-times-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .pathways {
+    grid-template-columns: 1fr;
+  }
+
+  .pathways a,
+  .pathways a:first-child {
+    min-height: 52px;
+    padding: 9px 3px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
   }
 }
 
