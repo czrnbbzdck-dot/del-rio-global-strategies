@@ -9,6 +9,8 @@
   --ink: #1d2b35;
   --muted: #647078;
   --rule: #dedbd2;
+  --paper-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='.018 .035'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --navy-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='.018 .04'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --content-width: 1160px;
   --header-height: 82px;
 }
@@ -96,6 +98,8 @@ summary:focus-visible,
   min-height: 32px;
   padding: 4px 24px;
   background: var(--navy);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
   color: #e8e4da;
   font-size: 11px;
   font-weight: 500;
@@ -196,6 +200,8 @@ summary:focus-visible,
   position: relative;
   overflow: hidden;
   background: var(--navy);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
   color: var(--white);
 }
 
@@ -365,6 +371,8 @@ h2,
   min-height: 272px;
   padding: 38px 34px;
   background: var(--cream);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
   color: var(--navy);
 }
 
@@ -437,6 +445,14 @@ h2,
 .competitor-section,
 .faq-section {
   background: var(--cream);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
+}
+
+.about-section,
+.clocks-section {
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
 }
 
 .section-heading {
@@ -544,17 +560,22 @@ h2,
   min-width: 0;
   padding: 30px;
   border: 1px solid var(--rule);
+  border-top: 2px solid var(--navy);
   flex-direction: column;
 }
 
 .brief-essential {
   background: var(--white);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
   color: var(--ink);
 }
 
 .brief-expanded {
   border-color: var(--navy);
   background: var(--navy);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
   color: var(--white);
 }
 
@@ -657,6 +678,8 @@ h2,
   padding: 16px;
   border-top: 1px solid var(--gold);
   background: rgba(255, 255, 255, 0.54);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
   align-items: flex-start;
   gap: 13px;
 }
@@ -679,6 +702,8 @@ h2,
   padding: 22px 25px;
   border-left: 2px solid var(--gold);
   background: rgba(255, 255, 255, 0.6);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
 }
 
 .brief-boundaries h3 {
@@ -692,7 +717,11 @@ h2,
 }
 
 .consulting-section {
-  background: var(--white);
+  border-bottom-color: rgba(247, 245, 239, 0.18);
+  background: var(--navy);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
+  color: var(--white);
 }
 
 .focus-area-heading {
@@ -817,6 +846,8 @@ h2,
   margin-top: 48px;
   padding: 26px;
   background: var(--cream);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
 }
 
 .engagement-principles h3 {
@@ -845,6 +876,8 @@ h2,
   padding: 16px 19px;
   border: 1px solid var(--rule);
   background: #fff;
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
 }
 
 .scope-details summary {
@@ -897,6 +930,43 @@ h2,
   font-size: 12px;
 }
 
+.consulting-section .section-number span,
+.consulting-section .section-heading h2,
+.consulting-section .focus-area-heading h3,
+.consulting-section .focus-card h4,
+.consulting-section .approach-heading h3,
+.consulting-section .approach-list h4 {
+  color: var(--cream);
+}
+
+.consulting-section .section-number,
+.consulting-section .section-kicker,
+.consulting-section .focus-card > span,
+.consulting-section .approach-list li > span {
+  color: var(--gold-light);
+}
+
+.consulting-section .section-intro,
+.consulting-section .focus-area-heading p,
+.consulting-section .focus-card p,
+.consulting-section .approach-heading > p:last-child,
+.consulting-section .approach-list p,
+.consulting-section .selective-note {
+  color: #d4dce0;
+}
+
+.consulting-section .focus-grid {
+  border-color: rgba(247, 245, 239, 0.2);
+}
+
+.consulting-section .focus-card {
+  border-color: rgba(247, 245, 239, 0.2);
+}
+
+.consulting-section .approach-list li {
+  border-bottom-color: rgba(247, 245, 239, 0.2);
+}
+
 .about-layout {
   display: grid;
   gap: clamp(38px, 8vw, 110px);
@@ -923,6 +993,8 @@ h2,
   padding: 21px 24px;
   border-left: 2px solid var(--gold);
   background: var(--cream);
+  background-image: var(--paper-texture);
+  background-size: 180px 180px;
 }
 
 .about-principle h3 {
@@ -1003,6 +1075,8 @@ h2,
 .contact-section {
   overflow: hidden;
   background: var(--navy);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
   color: var(--white);
 }
 
@@ -1109,6 +1183,8 @@ h2,
 
 .site-footer {
   background: var(--navy-deep);
+  background-image: var(--navy-texture);
+  background-size: 180px 180px;
   color: #e5e9e9;
 }
 
