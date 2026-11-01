@@ -443,6 +443,7 @@ h2,
 
 .briefs-section,
 .competitor-section,
+.evaluation-section,
 .faq-section {
   background: var(--cream);
   background-image: var(--paper-texture);
@@ -555,6 +556,12 @@ h2,
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.evaluation-grid {
+  display: grid;
+  max-width: 850px;
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .brief-card {
   display: flex;
   min-width: 0;
@@ -604,6 +611,23 @@ h2,
   margin: 21px 0 15px;
   color: #59656d;
   font-size: 13px;
+}
+
+.evaluation-description {
+  margin: 0 0 17px;
+  color: #59656d;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.evaluation-report-note {
+  margin: auto 0 7px;
+  padding: 12px 14px;
+  border-left: 2px solid var(--gold);
+  background: rgba(16, 43, 67, 0.04);
+  color: #535f67;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 .brief-expanded .brief-summary,
