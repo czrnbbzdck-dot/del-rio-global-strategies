@@ -295,8 +295,6 @@ h2,
 }
 
 .hero-actions,
-.card-actions,
-.dialog-actions,
 .contact-actions {
   display: flex;
   flex-wrap: wrap;
@@ -470,7 +468,6 @@ h2,
   padding: 88px 0;
 }
 
-.research-section,
 .about-section,
 .clocks-section {
   background: var(--white);
@@ -527,88 +524,6 @@ h2,
   font-size: 16px;
 }
 
-.research-controls {
-  display: flex;
-  margin: 34px 0 15px;
-  align-items: end;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.filter-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-}
-
-.filter-button {
-  min-height: 38px;
-  padding: 7px 12px;
-  border: 1px solid var(--rule);
-  background: transparent;
-  color: #44535c;
-  cursor: pointer;
-  font-size: 12px;
-  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
-}
-
-.filter-button:hover,
-.filter-button.is-active {
-  border-color: var(--navy);
-  background: var(--navy);
-  color: var(--white);
-}
-
-.search-wrap {
-  display: grid;
-  min-width: min(100%, 255px);
-  gap: 5px;
-}
-
-.search-wrap label {
-  color: #4a5961;
-  font-size: 11px;
-  font-weight: 600;
-}
-
-.search-wrap input {
-  width: 100%;
-  min-height: 39px;
-  padding: 8px 11px;
-  border: 1px solid #cfcac0;
-  border-radius: 0;
-  background: var(--white);
-  color: var(--ink);
-  font-size: 13px;
-}
-
-.search-wrap input::placeholder {
-  color: #899196;
-}
-
-.results-status {
-  min-height: 22px;
-  margin: 0 0 16px;
-  color: var(--muted);
-  font-size: 12px;
-}
-
-.outlook-grid {
-  display: grid;
-  gap: 19px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.outlook-card {
-  display: flex;
-  min-width: 0;
-  padding: 27px 28px 25px;
-  border: 1px solid var(--rule);
-  background: var(--cream);
-  flex-direction: column;
-}
-
-.outlook-card-top,
 .brief-card-heading {
   display: flex;
   align-items: flex-start;
@@ -616,15 +531,6 @@ h2,
   gap: 14px;
 }
 
-.card-category {
-  color: #5a6670;
-  font-size: 10px;
-  font-weight: 650;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-.card-price,
 .brief-price {
   color: var(--navy);
   font-family: Georgia, "Times New Roman", serif;
@@ -633,7 +539,6 @@ h2,
   white-space: nowrap;
 }
 
-.card-price span,
 .brief-price span {
   color: #647078;
   font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
@@ -641,7 +546,6 @@ h2,
   letter-spacing: 0.08em;
 }
 
-.outlook-card h3,
 .brief-card h3,
 .focus-card h4,
 .approach-list h4 {
@@ -649,29 +553,6 @@ h2,
   font-weight: 400;
 }
 
-.outlook-card h3 {
-  margin: 18px 0 10px;
-  color: var(--navy);
-  font-size: 25px;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-}
-
-.outlook-description {
-  margin-bottom: 18px;
-  color: #56636b;
-  font-size: 13px;
-  line-height: 1.7;
-}
-
-.includes-label {
-  margin: 0 0 7px;
-  color: var(--navy);
-  font-size: 11px;
-  font-weight: 700;
-}
-
-.includes-list,
 .brief-features {
   display: grid;
   margin: 0 0 22px;
@@ -682,99 +563,12 @@ h2,
   line-height: 1.55;
 }
 
-.includes-list li::marker,
 .brief-features li::marker {
   color: var(--gold);
 }
 
-.card-actions {
-  margin-top: auto;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.card-actions .button {
-  min-height: 41px;
-  padding: 9px 12px;
-  font-size: 11px;
-}
-
-.text-button {
-  padding: 6px 0;
-  border: 0;
-  background: transparent;
-  color: var(--navy);
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 650;
-  text-align: left;
-}
-
-.text-button:hover {
-  color: var(--gold);
-}
-
-.text-button span {
-  color: var(--gold);
-}
-
-.research-disclaimer {
-  margin: 24px 0 0;
-  color: #67737a;
-  font-size: 11px;
-}
-
 [hidden] {
   display: none !important;
-}
-
-.publication-dialog {
-  width: min(560px, calc(100% - 32px));
-  max-height: min(86vh, 680px);
-  padding: 0;
-  border: 1px solid var(--rule);
-  background: var(--white);
-  color: var(--ink);
-  box-shadow: 0 22px 70px rgba(8, 24, 37, 0.3);
-}
-
-.publication-dialog::backdrop {
-  background: rgba(10, 28, 43, 0.68);
-  backdrop-filter: blur(2px);
-}
-
-.dialog-inner {
-  padding: clamp(25px, 5vw, 40px);
-}
-
-.dialog-inner h3 {
-  margin: 11px 0 14px;
-  color: var(--navy);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 29px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.dialog-inner > p:not(.section-kicker) {
-  color: #56636b;
-  font-size: 14px;
-}
-
-.dialog-inner h4 {
-  margin: 22px 0 8px;
-  color: var(--navy);
-  font-size: 12px;
-}
-
-.dialog-note {
-  padding-top: 12px;
-  border-top: 1px solid var(--rule);
-  font-size: 12px !important;
-}
-
-.dialog-actions {
-  margin-top: 24px;
 }
 
 .brief-grid {
@@ -1604,17 +1398,6 @@ h2,
     padding: 68px 0;
   }
 
-  .research-controls {
-    align-items: stretch;
-    flex-direction: column;
-    gap: 17px;
-  }
-
-  .search-wrap {
-    max-width: 440px;
-  }
-
-  .outlook-grid,
   .brief-grid {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -1741,32 +1524,8 @@ h2,
     font-size: 14px;
   }
 
-  .filter-group {
-    gap: 6px;
-  }
-
-  .filter-button {
-    min-height: 36px;
-    padding: 6px 9px;
-    font-size: 11px;
-  }
-
-  .outlook-card,
   .brief-card {
     padding: 22px 19px;
-  }
-
-  .outlook-card h3 {
-    font-size: 23px;
-  }
-
-  .card-actions {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .card-actions .button {
-    width: 100%;
   }
 
   .brief-card h3 {
