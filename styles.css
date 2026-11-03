@@ -1335,7 +1335,7 @@ h2,
   transition: color 160ms ease;
 }
 
-.footer-navigation a[href^="https://"] {
+.footer-navigation a[href^="https://"]:not([href*="instagram.com"]) {
   font-weight: 700;
   text-decoration: underline;
 }
