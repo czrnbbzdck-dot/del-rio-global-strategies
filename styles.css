@@ -558,8 +558,9 @@ h2,
 
 .evaluation-grid {
   display: grid;
-  max-width: 850px;
-  grid-template-columns: minmax(0, 1fr);
+  align-items: stretch;
+  gap: 19px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .brief-card {
@@ -576,6 +577,23 @@ h2,
   background-image: var(--paper-texture);
   background-size: 180px 180px;
   color: var(--ink);
+}
+
+.evaluation-premium {
+  border-top-color: var(--gold);
+}
+
+.evaluation-premium .brief-card-heading {
+  align-items: flex-start;
+}
+
+.evaluation-premium .brief-card h3 {
+  max-width: 290px;
+  font-size: 23px;
+}
+
+.evaluation-premium .section-kicker {
+  margin-bottom: 8px;
 }
 
 .brief-expanded {
@@ -618,6 +636,59 @@ h2,
   color: #59656d;
   font-size: 13px;
   line-height: 1.75;
+}
+
+.evaluation-detail-group {
+  margin-top: 6px;
+  padding-top: 13px;
+  border-top: 1px solid var(--rule);
+}
+
+.evaluation-detail-group h4 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.evaluation-detail-group p {
+  margin: 0 0 8px;
+  color: #59656d;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.evaluation-deliverables {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 9px;
+  list-style: none;
+}
+
+.evaluation-deliverables li {
+  display: grid;
+  padding-left: 11px;
+  border-left: 2px solid var(--gold);
+  gap: 2px;
+  color: #59656d;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.evaluation-deliverables strong {
+  color: var(--navy);
+  font-weight: 650;
+}
+
+.evaluation-delivery {
+  margin-bottom: 8px;
+}
+
+.evaluation-premium .brief-order {
+  margin-top: auto;
 }
 
 .evaluation-report-note {
@@ -1300,6 +1371,12 @@ h2,
   .hero-inner {
     grid-template-columns: minmax(0, 1.1fr) minmax(265px, 0.75fr);
     gap: 42px;
+  }
+}
+
+@media (max-width: 700px) {
+  .evaluation-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
