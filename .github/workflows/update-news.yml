@@ -1,0 +1,95 @@
+name: Update news archive
+
+on:
+  schedule:
+    - cron: "0 10,22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: drgs-news-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Refresh verified news
+        run: python scripts/update_news.py
+      - name: Commit updated archive
+        run: |
+          if git diff --quiet -- news/data.json; then
+            echo "News archive is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news/data.json
+          git commit -m "Update automated news archive"
+          git push
+      - name: Report update completion time
+        if: success()
+        run: |
+          completed_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          echo "News update workflow completed at ${completed_at} (UTC)." | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Notify on update failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- drgs-news-automation-alert -->";
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = `${marker}\nNews automation failed at ${new Date().toISOString()}.\n\nRun: ${runUrl}\n\nThe previous successful news archive is retained.`;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              ...context.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const alert = issues.find((issue) => !issue.pull_request && issue.body?.includes(marker));
+            if (alert) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: alert.number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                ...context.repo,
+                title: "News automation needs attention",
+                body,
+              });
+            }
+      - name: Close recovered automation alert
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- drgs-news-automation-alert -->";
+            const { data: issues } = await github.rest.issues.listForRepo({
+              ...context.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const alert = issues.find((issue) => !issue.pull_request && issue.body?.includes(marker));
+            if (alert) {
+              const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: alert.number,
+                body: `News automation recovered at ${new Date().toISOString()}.\n\nRun: ${runUrl}`,
+              });
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: alert.number,
+                state: "closed",
+              });
+            }
