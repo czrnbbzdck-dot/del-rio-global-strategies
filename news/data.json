@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-05T02:01:56Z",
+  "updatedAt": "2026-11-05T17:54:08Z",
   "featuredIds": [
-    "09a90e63de4726db70337179d701e8a8e834b90af27cbd041938ce60800eba6b",
-    "9cc53e9eda9e7cde360497538762dd0718152c81dfa5fe3cdf35f7746e45ac2b",
-    "d483b6f2be6a435df8c318c5c9e109b4e0d24228be75d2d85e9a0bcc472c03bb"
+    "9399cf5ee9959c4211501b4477dec302061880e1512b1eb4f04c6edbfd9690b2",
+    "4b419b6e3c6c153bd87841030346a5fa6b7af94cb76179782d0de54243bd5f0b",
+    "61d0f9b15ffc4c6a4246dabc0c69e7406a7f676481ae9d3cfb57c25328f9d5ff"
   ],
   "lastRun": {
-    "startedAt": "2026-11-05T02:01:53Z",
-    "completedAt": "2026-11-05T02:01:56Z",
+    "startedAt": "2026-11-05T17:54:04Z",
+    "completedAt": "2026-11-05T17:54:08Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "european-commission",
@@ -28,12 +28,96 @@
       {
         "source": "federal-register",
         "status": "success",
-        "items": 9
+        "items": 5
       }
     ],
-    "freshArticles": 11
+    "freshArticles": 8
   },
   "articles": [
+    {
+      "id": "9399cf5ee9959c4211501b4477dec302061880e1512b1eb4f04c6edbfd9690b2",
+      "headline": "Commission disburses €4.36 billion to Ukraine under the €90 billion Ukraine Support Loan",
+      "description": "European Commission Press release Brussels, 05 Nov 2026 Today, the European Commission disbursed €4.36 billion to Ukraine under the Ukraine Support Loan. This payment includes €3.7 billion for the second instalment of macro-financial assistance (MFA) agreed for 2026 and €658 million under the defence leg of the Loan.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-05T08:01:16Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2349"
+    },
+    {
+      "id": "b35bb5aa079a54146d7d922d2de46fcf1fb6a1cb7b171f78d0127beef9bf0bf8",
+      "headline": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "description": "The resilience of the banking sector was an essential condition for monetary policy to act as needed to restore price stability. This was largely thanks to the financial reforms introduced in the wake of the global financial crisis. Strong capital positions and healthy profitability allowed banks to absorb the rise in interest rates without coming under financial strain (Slide 10).",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+    },
+    {
+      "id": "d6f8534e0e4ef3d0e1509000f14cd15d2b1a88c89ea6b5febf8df88a5093624f",
+      "headline": "Piero Cipollone: Shaping the future of money",
+      "description": "But market participants have been clear that tokenised finance needs a safe settlement asset. Private instruments such as stablecoins and tokenised bank deposits can play useful roles. But central bank money provides risk-free final settlement and a common reference that private forms of money can be converted into at par. It ensures that one euro remains one euro, no matter its issuer, form or underlying technology.",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-05T07:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
+    },
+    {
+      "id": "4b419b6e3c6c153bd87841030346a5fa6b7af94cb76179782d0de54243bd5f0b",
+      "headline": "Last Energy, Inc; Phased Construction Permit Application-Limited Work Authorization",
+      "description": "The U.S. Nuclear Regulatory Commission (NRC) has received the first part of a two-part phased construction permit application from Last Energy, Inc., (Last Energy), requesting a limited work authorization (LWA) for a proposed utilization facility at the Caldwell Site in Caldwell County, Texas.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22577/last-energy-inc-phased-construction-permit-application-limited-work-authorization"
+    },
+    {
+      "id": "61d0f9b15ffc4c6a4246dabc0c69e7406a7f676481ae9d3cfb57c25328f9d5ff",
+      "headline": "Foreign-Trade Zone (FTZ) 252, Notification of Proposed Production Activity; Fermi Inc.; (Modular Nuclear Power Plant and Natural Gas Power Plant); Panhandle, Texas; Correction",
+      "description": "The Federal Register notice published on June 11, 2026, regarding the notification of proposed production activity submitted by Fermi Inc. is being corrected.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22619/foreign-trade-zone-ftz-252-notification-of-proposed-production-activity-fermi-inc-modular-nuclear"
+    },
+    {
+      "id": "c1cf601b34487febe9a9d2cb29b3ba6c67da881e89d2693c28c295d3196e45bb",
+      "headline": "Foreign-Trade Zone (FTZ) 155, Notification of Proposed Production Activity; Kerrville Public Utility Board Public Facility Corporation; (Natural Gas Reciprocating Internal Combustion Engine Generation Power Plant); Garwood, Texas…",
+      "description": "The Federal Register notice published on October 28, 2026, regarding the notification of proposed production activity submitted by the Kerrville Public Utility Board Public Facility Corporation is being corrected.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22635/foreign-trade-zone-ftz-155-notification-of-proposed-production-activity-kerrville-public-utility"
+    },
+    {
+      "id": "70e5d514f6286b33302dfdf25b0b6830b267f8eacc2a2719a0369a21a9865ef6",
+      "headline": "60-Day Notice of Proposed Information Collection: Home Mortgage Disclosure Act (HMDA) Loan/Application Register",
+      "description": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 60 days of public comment.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22571/60-day-notice-of-proposed-information-collection-home-mortgage-disclosure-act-hmda-loanapplication"
+    },
     {
       "id": "09a90e63de4726db70337179d701e8a8e834b90af27cbd041938ce60800eba6b",
       "headline": "€525 million investment set to drive new generation of European chip design companies",
