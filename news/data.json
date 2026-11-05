@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04T11:42:49Z",
+  "updatedAt": "2026-11-05T02:01:56Z",
   "featuredIds": [
-    "995a2369a7ff72f62bdb53897bbd1a6b13c80c2355a39b1124431932610bb530",
-    "08e17c6f01390bd016ab762971e5fbea02b16d2c740aa6d92f8ee464b50651a3",
-    "776db45e9db87706334be5cc5949a06c95ab4b960200f0c4bdd2e518f285bc8a"
+    "09a90e63de4726db70337179d701e8a8e834b90af27cbd041938ce60800eba6b",
+    "9cc53e9eda9e7cde360497538762dd0718152c81dfa5fe3cdf35f7746e45ac2b",
+    "d483b6f2be6a435df8c318c5c9e109b4e0d24228be75d2d85e9a0bcc472c03bb"
   ],
   "lastRun": {
-    "startedAt": "2026-11-04T11:42:45Z",
-    "completedAt": "2026-11-04T11:42:49Z",
+    "startedAt": "2026-11-05T02:01:53Z",
+    "completedAt": "2026-11-05T02:01:56Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "european-commission",
@@ -34,6 +34,30 @@
     "freshArticles": 11
   },
   "articles": [
+    {
+      "id": "09a90e63de4726db70337179d701e8a8e834b90af27cbd041938ce60800eba6b",
+      "headline": "€525 million investment set to drive new generation of European chip design companies",
+      "description": "European Commission Press release Brussels, 04 Nov 2026 Launching today, the European Chip Design Platform will mobilise €525 million in investment to stimulate a new generation of European chip design companies.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-04T14:48:20Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345"
+    },
+    {
+      "id": "9cc53e9eda9e7cde360497538762dd0718152c81dfa5fe3cdf35f7746e45ac2b",
+      "headline": "U.S. International Trade in Goods and Services, September 2026",
+      "description": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-04T13:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026"
+    },
     {
       "id": "d483b6f2be6a435df8c318c5c9e109b4e0d24228be75d2d85e9a0bcc472c03bb",
       "headline": "Treatment of Emergency Amendments: Paycheck Protection Program Liquidity Facility and Paycheck Protection Program Loans",
