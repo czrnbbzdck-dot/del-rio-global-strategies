@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-06T02:02:16Z",
+  "updatedAt": "2026-11-06T17:13:55Z",
   "featuredIds": [
-    "b35bb5aa079a54146d7d922d2de46fcf1fb6a1cb7b171f78d0127beef9bf0bf8",
-    "c1cf601b34487febe9a9d2cb29b3ba6c67da881e89d2693c28c295d3196e45bb",
-    "70e5d514f6286b33302dfdf25b0b6830b267f8eacc2a2719a0369a21a9865ef6"
+    "308c455948d25aeb81d7ebcb5c63cb94f1eb1312348e9de23c5359545f4d7d5c",
+    "0fe5c4897007f997e74f2ca0d26d8d62969339ce8bcbf40e10ff4b98b8503768",
+    "b12a0f25c4eaba42b35bff761e9b112d44d4e153b1a55a65a129e52881c7f4e3"
   ],
   "lastRun": {
-    "startedAt": "2026-11-06T02:02:13Z",
-    "completedAt": "2026-11-06T02:02:16Z",
+    "startedAt": "2026-11-06T17:13:52Z",
+    "completedAt": "2026-11-06T17:13:55Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -18,22 +18,142 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 2
+        "items": 1
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 5
+        "items": 9
       }
     ],
-    "freshArticles": 8
+    "freshArticles": 10
   },
   "articles": [
+    {
+      "id": "308c455948d25aeb81d7ebcb5c63cb94f1eb1312348e9de23c5359545f4d7d5c",
+      "headline": "ECB publishes consolidated banking data for end-June 2026",
+      "description": "The quarterly data provide information required to analyse the EU banking sector and comprise a subset of the information that is available in the year-end dataset. The data cover 336 banking groups and 2283 stand-alone credit institutions and non-EU controlled subsidiaries and branches operating in the EU, accounting for nearly 100% of the EU banking sector’s balance sheet. They include an extensive range of indicators on profitability and efficiency, balance sheet…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-06T09:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
+    },
+    {
+      "id": "0fe5c4897007f997e74f2ca0d26d8d62969339ce8bcbf40e10ff4b98b8503768",
+      "headline": "Request Notice: Use of Foreign-built Small Passenger Vessel in United States Coastwise Trade, M/V NIUHI 2",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22702/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-niuhi"
+    },
+    {
+      "id": "27624a6c02b3918326fc501cc0c3a0566b7a7fca9c53a4df2bcf15b03c0e05eb",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V JULIANA",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22699/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv"
+    },
+    {
+      "id": "7c96709b54ec9e99be5e0595e150607de7f107f9f1a197ba775cd885a9a17c2d",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V ISLAND VIBEZ",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22703/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv"
+    },
+    {
+      "id": "b12a0f25c4eaba42b35bff761e9b112d44d4e153b1a55a65a129e52881c7f4e3",
+      "headline": "Potential Improvements to the OGE Form 278e (Executive Branch Personnel Public Financial Disclosure Report) and the OGE Form 450 (Executive Branch Confidential Financial Disclosure Report)",
+      "description": "The U.S. Office of Government Ethics (OGE) is hosting a public meeting to obtain input from interested parties regarding potential improvements to the OGE Form 278e and the OGE Form 450 as part of a form revision planning process that will precede the next requested renewal of these forms under the Paperwork Reduction Act, 44 U.S.C. 3501 et seq. The next scheduled renewal is in 2027.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22659/potential-improvements-to-the-oge-form-278e-executive-branch-personnel-public-financial-disclosure"
+    },
+    {
+      "id": "1ed9958c1f18ef8c20bee87b847bfac5248bdc48947dad4c1ac4de3f31c410e9",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Amendment 128 to the FMP for Groundfish of the Bering Sea and Aleutian Islands Management Area and Amendment 116 to the FMP for the Groundfish Fisheries of the Gulf of Alaska; Small…",
+      "description": "The North Pacific Fishery Management Council (Council) submitted amendment 128 to the Fishery Management Plan (FMP) for Groundfish of the Bering Sea and Aleutian Islands Management Area (BSAI FMP) and amendment 116 to the FMP for Groundfish fisheries of the Gulf of Alaska (GOA FMP) to the Secretary of Commerce for review. If approved, these amendments would increase operational flexibility to allow vessels fishing for sablefish with fixed gear under the Individual Fishing…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22695/fisheries-of-the-exclusive-economic-zone-off-alaska-amendment-128-to-the-fmp-for-groundfish-of-the"
+    },
+    {
+      "id": "17f18186054b3d3c708e711268b8a3c9b4bec0b9a1d20edef85dc5c7e39c8e91",
+      "headline": "Fair Lending Report of the Consumer Financial Protection Bureau",
+      "description": "The Consumer Financial Protection Bureau (CFPB or Bureau) is issuing its Fair Lending Report of the Consumer Financial Protection Bureau (Fair Lending Report) to Congress. This report describes our fair lending activities in rulemaking; supervision and enforcement; interagency coordination; and stakeholder engagement for calendar year 2025.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22645/fair-lending-report-of-the-consumer-financial-protection-bureau"
+    },
+    {
+      "id": "260f1da5f099a604d9e312bfa4810946b5084f29e4ab710e161bbd041251538f",
+      "headline": "Amendments to the “Small Business” and “Small Organization” Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act",
+      "description": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is amending the definitions of \"small business\" and \"small organization\" (collectively, \"small entities\") that are used in connection with Commission rulemaking under the Investment Company Act of 1940 (the \"Investment Company Act\") and the Investment Advisers Act of 1940 (the \"Advisers Act\"). These definitions concern regulatory requirements applicable to registered investment companies and business…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22741/amendments-to-the-small-business-and-small-organization-definitions-for-investment-companies-and"
+    },
+    {
+      "id": "3cc8899495aabd8ebc655f2ef933afa3dcb245daedbeca81388806b1650d91ab",
+      "headline": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Section 232 National Security Adjustments to Imports of Specialty Pharmaceuticals and Associated…",
+      "description": "The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"Section…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22725/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+    },
+    {
+      "id": "72efaacecd500464995ac13f9d6a4192a75b4fb1ccd158430fe9c50295fd5fa1",
+      "headline": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Application Process To Waive the Import Qualification Criteria Measures To Restrict Stockpiling of…",
+      "description": "The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"Measures…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22726/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+    },
     {
       "id": "9399cf5ee9959c4211501b4477dec302061880e1512b1eb4f04c6edbfd9690b2",
       "headline": "Commission disburses €4.36 billion to Ukraine under the €90 billion Ukraine Support Loan",
