@@ -1,14 +1,12 @@
 {
-  "updatedAt": "2026-11-07T01:42:08Z",
+  "updatedAt": "2026-11-07T16:08:38Z",
   "featuredIds": [
-    "27624a6c02b3918326fc501cc0c3a0566b7a7fca9c53a4df2bcf15b03c0e05eb",
-    "1ed9958c1f18ef8c20bee87b847bfac5248bdc48947dad4c1ac4de3f31c410e9",
-    "308c455948d25aeb81d7ebcb5c63cb94f1eb1312348e9de23c5359545f4d7d5c"
+    "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0"
   ],
   "lastRun": {
-    "startedAt": "2026-11-07T01:42:04Z",
-    "completedAt": "2026-11-07T01:42:08Z",
-    "successfulSources": 4,
+    "startedAt": "2026-11-07T16:08:34Z",
+    "completedAt": "2026-11-07T16:08:38Z",
+    "successfulSources": 3,
     "sourceResults": [
       {
         "source": "bea",
@@ -27,13 +25,25 @@
       },
       {
         "source": "federal-register",
-        "status": "success",
-        "items": 9
+        "status": "failed",
+        "error": "Federal Register API response has an invalid format"
       }
     ],
-    "freshArticles": 10
+    "freshArticles": 1
   },
   "articles": [
+    {
+      "id": "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0",
+      "headline": "Christine Lagarde: Interview with Yomiuri Shimbun",
+      "description": "I don’t think it’s appropriate to pre-empt the forecast. But clearly there have been some important changes since our September projections. Energy futures curves are higher, which will have a bearing on both inflation and growth, although oil prices have come down more recently. Long-term interest rates are also higher. Our forecast exercise will determine how these different forces affect medium-term inflation.",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-07T14:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
+    },
     {
       "id": "308c455948d25aeb81d7ebcb5c63cb94f1eb1312348e9de23c5359545f4d7d5c",
       "headline": "ECB publishes consolidated banking data for end-June 2026",
