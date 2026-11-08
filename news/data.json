@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-08T01:10:26Z",
+  "updatedAt": "2026-11-08T16:32:26Z",
   "featuredIds": [
     "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0"
   ],
   "lastRun": {
-    "startedAt": "2026-11-08T01:10:24Z",
-    "completedAt": "2026-11-08T01:10:26Z",
-    "successfulSources": 3,
+    "startedAt": "2026-11-08T16:32:24Z",
+    "completedAt": "2026-11-08T16:32:26Z",
+    "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
@@ -16,7 +16,7 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "european-commission",
@@ -25,13 +25,121 @@
       },
       {
         "source": "federal-register",
-        "status": "failed",
-        "error": "Federal Register API response has an invalid format"
+        "status": "success",
+        "items": 10
       }
     ],
-    "freshArticles": 1
+    "freshArticles": 10
   },
   "articles": [
+    {
+      "id": "da10e75c2740e13b0a018356abad0b32a131a1ecfe29864eeef4e346cbf9670d",
+      "headline": "Threshold for the Requirement To Collect, Retain, and Transmit Information on Funds Transfers and Transmittals of Funds That Begin or End Outside the United States, and Clarification of the Requirement To Collect, Retain, and Transmit…",
+      "description": "FinCEN and the Board (collectively, the \"Agencies\") are withdrawing the joint notice of proposed rulemaking (NPRM) published on October 27, 2020, that proposed modifying the threshold in the Agencies' rules implementing the Bank Secrecy Act (BSA) requiring financial institutions to collect and retain information on certain funds transfers and transmittals of funds. The NPRM would have reduced this threshold from $3,000 to $250 for funds transfers and transmittals of funds…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22809/threshold-for-the-requirement-to-collect-retain-and-transmit-information-on-funds-transfers-and"
+    },
+    {
+      "id": "7ffcc9adef7dd59825d5ed30e3069022e5e90d30c1debcaee1ca89abcc66ebc5",
+      "headline": "Single Family Housing Guaranteed Loan Program-Limited Party Concessions",
+      "description": "Rural Housing Service (RHS or the Agency), a Rural Development (RD) agency of the United States Department of Agriculture (USDA), amends the Single Family Housing Guaranteed Loan Program (SFHGLP) regulation to clarify real estate commission fees are not included in the limit on interested party concessions.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22772/single-family-housing-guaranteed-loan-program-limited-party-concessions"
+    },
+    {
+      "id": "ab81dc6ae9ffd54513db855310be33e0be7914fe246c87ded9b880ed7e475a30",
+      "headline": "Medicare Drug Price Negotiation Program and Medicare Prescription Drug Benefit Program",
+      "description": "This rule finalizes and codifies the Medicare Drug Price Negotiation Program (\"Negotiation Program\") and establishes certain new policies for the Negotiation Program and the Medicare Prescription Drug Benefit Program (\"Part D Program\") as required by the Inflation Reduction Act of 2022. This final rule also finalizes a proposed policy for specific fixed combination drugs that are new formulations.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program"
+    },
+    {
+      "id": "dbc7a8a0acf3b17627f4827dcc9c2e109c3c299077d5844a39b3412df15d26f4",
+      "headline": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation…",
+      "description": "This final rule addresses: changes to the physician fee schedule (PFS); other changes to Medicare Part B payment policies to ensure that payment systems are updated to reflect changes in medical practice, relative value of services, and changes in the statute; codification of establishment of new policies for: the Medicare Prescription Drug Inflation Rebate Program under the Inflation Reduction Act of 2022; limiting Medicare coverage of certain individuals; the Ambulatory…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other"
+    },
+    {
+      "id": "1fae499e9e56da79060eef13bd4d1285caaf85e38050524f962fca84148ee733",
+      "headline": "Establish Price for 2026 Semiquincentennial President Donald J. Trump $1 Coin-1,000-Coin Bags",
+      "description": "The United States Mint is announcing the price of $1,350.00 for the 2026 Semiquincentennial President Donald J. Trump $1 Coin-- 1,000-Coin Bag. This product is limited to 15,100 units.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22797/establish-price-for-2026-semiquincentennial-president-donald-j-trump-1-coin-1000-coin-bags"
+    },
+    {
+      "id": "b89722e089706ced6ad417ca8265e163a396a52b4205c89af1aa5a06d546eff8",
+      "headline": "Determination Under the Textile and Apparel Commercial Availability Provision of the Dominican Republic-Central America-United States Free Trade Agreement (“CAFTA-DR”)",
+      "description": "The Committee for the Implementation of Textile Agreements (\"CITA\") has determined that certain woven wrinkle free cotton/ polyester/spandex fabric, as specified below, is not available in commercial quantities in a timely manner in the CAFTA-DR countries. The product is added to the list in Annex 3.25 of the CAFTA-DR in unrestricted quantities.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22746/determination-under-the-textile-and-apparel-commercial-availability-provision-of-the-dominican"
+    },
+    {
+      "id": "7e48ac0632fc98d6dfbfdf4fd736047788f76058889e4a2c7c0c87d3846438ae",
+      "headline": "Determination Under the Textile and Apparel Commercial Availability Provision of the Dominican Republic-Central America-United States Free Trade Agreement (“CAFTA-DR”)",
+      "description": "The Committee for the Implementation of Textile Agreements (\"CITA\") has determined that certain woven wrinkle free cotton/ polyester fabric, as specified below, is not available in commercial quantities in a timely manner in the CAFTA-DR countries. The product is added to the list in Annex 3.25 of the CAFTA-DR in unrestricted quantities.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22745/determination-under-the-textile-and-apparel-commercial-availability-provision-of-the-dominican"
+    },
+    {
+      "id": "539f93a489d37ed11fe2eca544307b8a955b1291e7c6b203629906c57e68695f",
+      "headline": "Certain Glow Fish Tape Systems, Safety Helmet Systems, and Components Thereof; Notice of a Final Determination Finding a Violation of Section 337; Issuance of a Limited Exclusion Order and Cease and Desist Order; Termination of…",
+      "description": "Notice is hereby given that the U.S. International Trade Commission (\"the Commission\") has determined that respondent Milwaukee Electric Tool Corporation of Brookfield, Wisconsin (\"Milwaukee\") has violated section 337 of the Tariff Act of 1930, as amended, by importing, selling for importation, or selling in the United States after importation certain glow fish tape systems and components thereof that infringe claim 6 of U.S. Patent No. 12,187,573 (\"the '573 patent\"). The…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22768/certain-glow-fish-tape-systems-safety-helmet-systems-and-components-thereof-notice-of-a-final"
+    },
+    {
+      "id": "f86b909f9af7781fe9c89f49420ff4fc76a375967f15cbbfd8454e40fb1388b7",
+      "headline": "Application for Authorization To Export Electric Energy; KPT Energy LLC",
+      "description": "KPT Energy LLC (the Applicant or KPT Energy) has applied for renewed authorization to transmit electric energy from the United States to Canada pursuant to the Federal Power Act.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22796/application-for-authorization-to-export-electric-energy-kpt-energy-llc"
+    },
     {
       "id": "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0",
       "headline": "Christine Lagarde: Interview with Yomiuri Shimbun",
