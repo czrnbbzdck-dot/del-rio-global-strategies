@@ -1,11 +1,13 @@
 {
-  "updatedAt": "2026-11-09T01:29:35Z",
+  "updatedAt": "2026-11-09T20:29:56Z",
   "featuredIds": [
-    "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0"
+    "da10e75c2740e13b0a018356abad0b32a131a1ecfe29864eeef4e346cbf9670d",
+    "b89722e089706ced6ad417ca8265e163a396a52b4205c89af1aa5a06d546eff8",
+    "b0c78200257bb6359d92c3d14e0966ab63c0d2d5617f626b6dd29cec029543c7"
   ],
   "lastRun": {
-    "startedAt": "2026-11-09T01:29:32Z",
-    "completedAt": "2026-11-09T01:29:35Z",
+    "startedAt": "2026-11-09T20:29:54Z",
+    "completedAt": "2026-11-09T20:29:56Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -21,7 +23,7 @@
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "federal-register",
@@ -29,7 +31,7 @@
         "items": 10
       }
     ],
-    "freshArticles": 10
+    "freshArticles": 12
   },
   "articles": [
     {
@@ -139,6 +141,30 @@
       "publishedAt": "2026-11-09T00:00:00Z",
       "datePrecision": "day",
       "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22796/application-for-authorization-to-export-electric-energy-kpt-energy-llc"
+    },
+    {
+      "id": "b0c78200257bb6359d92c3d14e0966ab63c0d2d5617f626b6dd29cec029543c7",
+      "headline": "High-Level Platform meets in Moldova to strengthen digital connectivity between the EU, the Black Sea region, South-Caucasus and Central Asia*",
+      "description": "European Commission Press release Chișinău, 09 Nov 2026 Today, the first High-Level Connectivity Platform Meeting on Digital takes place in Chișinău, Moldova, jointly hosted by the European Commission and the Moldovan Ministry of Economic Development and Digitalisation. The meeting sets the groundwork for stronger digital connectivity between Europe and Centra Asia, via Moldova, in the form of an Integrated EU Secure Connectivity Offer.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-08T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2371"
+    },
+    {
+      "id": "4a905f55ceb1ec8492f3443798093ba61e16963f9f988032a335f540f9dc7acf",
+      "headline": "EU emissions continue to fall as clean energy gains ground",
+      "description": "European Commission Press release Brussels, 09 Nov 2026 The European Commission has today published the 2026 EU Climate Action Progress Report and Carbon Market Report, showing that EU greenhouse gas (GHG) emissions continue to fall, clean technologies are expanding, and an increasing amount of ETS revenues are available to EU Member States for investments in decarbonisation.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-08T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2343"
     },
     {
       "id": "b9dcd2ec498515901e2c0c18445109ec47e257a17276b66a4c33d792258cedd0",
