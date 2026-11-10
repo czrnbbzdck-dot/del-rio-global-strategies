@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-10T03:58:44Z",
+  "updatedAt": "2026-11-10T17:32:00Z",
   "featuredIds": [
-    "7ffcc9adef7dd59825d5ed30e3069022e5e90d30c1debcaee1ca89abcc66ebc5",
-    "7e48ac0632fc98d6dfbfdf4fd736047788f76058889e4a2c7c0c87d3846438ae",
-    "ab81dc6ae9ffd54513db855310be33e0be7914fe246c87ded9b880ed7e475a30"
+    "e3471b85e9068b8b99f1554dfdec5379440de1153bf64febcfecf26a9b08288e",
+    "92564b1248ff65bf57fad7ac197a3203c708309e7696371ac7dc6e6a74581543",
+    "eeccc616b28cf292dc2061a199061c0d111e6d192a6e181e14d23f65a0a5b2fe"
   ],
   "lastRun": {
-    "startedAt": "2026-11-10T03:58:42Z",
-    "completedAt": "2026-11-10T03:58:44Z",
+    "startedAt": "2026-11-10T17:31:56Z",
+    "completedAt": "2026-11-10T17:32:00Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -18,22 +18,118 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 10
+        "items": 9
       }
     ],
-    "freshArticles": 10
+    "freshArticles": 12
   },
   "articles": [
+    {
+      "id": "e3471b85e9068b8b99f1554dfdec5379440de1153bf64febcfecf26a9b08288e",
+      "headline": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "description": "Monetary policy is about more than just the latest interest rate decision. It also involves communication about future economic developments and the factors shaping future policy decisions. [ 1 ] By steering the expectations of financial market participants, central bank communication shapes the full set of financial market prices across the maturity and risk spectrums, in turn affecting financing conditions and decisions around credit, saving and investment. The decisions…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-10T16:45:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
+    },
+    {
+      "id": "461728c10cfa467f403f3c04b70f09dfeb6bbd61df4772120039ef56f686e8da",
+      "headline": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "description": "Europe’s achievements in payments innovation go beyond progress on the digital euro. In September we launched Pontes, which connects market distributed ledger technology (DLT) platforms with the Eurosystem’s TARGET Services. [ 3 ] The launch was widely welcomed by the market, with 18 market participants and market DLT operators onboarded on day one and many others preparing to join soon. Pontes makes the settlement of tokenised transactions in central bank money an…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-10T14:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
+    },
+    {
+      "id": "92564b1248ff65bf57fad7ac197a3203c708309e7696371ac7dc6e6a74581543",
+      "headline": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "description": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.\" The guidance describes general recommendations for the validation of in vitro diagnostic devices (IVDs) for emerging pathogens during an applicable declaration of public health emergency (PHE). This guidance and the associated template include the…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564"
+    },
+    {
+      "id": "eeccc616b28cf292dc2061a199061c0d111e6d192a6e181e14d23f65a0a5b2fe",
+      "headline": "Notice of Open Public Event",
+      "description": "Notice is hereby given of the following open public event of the U.S.-China Economic and Security Review Commission. The Commission is mandated by Congress to monitor, investigate, and report to Congress annually on \"the national security implications of the bilateral trade and economic relationship between the United States and the People's Republic of China.\" Pursuant to this mandate, the Commission will hold a public release of its 2026 Annual Report to Congress in…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22856/notice-of-open-public-event"
+    },
+    {
+      "id": "d491096c4e7be05eacf550144e1cbabb42f8f8702280fa77861177c057592050",
+      "headline": "Membership of the Performance Review Boards",
+      "description": "The Department of Commerce (DOC) announces the appointment of those individuals who have been selected to serve as members of the Office of the Secretary Performance Review Board, International Trade Administration (ITA) Performance Review Board, the Bureau of Industry and Security (BIS) Performance Review Board, Census Bureau Performance Review Board (Census), Bureau of Economic Analysis (BEA) Performance Review Board, National Oceanic and Atmospheric Administration (NOAA)…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22933/membership-of-the-performance-review-boards"
+    },
+    {
+      "id": "e3d7be500b7d84a1d7768f9b744894dac4e55128b85da2c4cbdecac51039f38f",
+      "headline": "Deregistration Under Section 8(f) of the Investment Company Act of 1940; Correction",
+      "description": "The SEC published a document in the Federal Register on November 4, 2026, concerning notice of applications for deregistration under section 8(f) of the Investment Company Act of 1940 for the month of October 2026. The document contained an incorrect address for Polen Credit Opportunities Fund.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22885/deregistration-under-section-8f-of-the-investment-company-act-of-1940-correction"
+    },
+    {
+      "id": "8395185c9498f743be90078829a43c31613b7b8d909db78144e5c8eb3c9076e9",
+      "headline": "Certain Magnesia Carbon Bricks From the People's Republic of China: Initiation of Circumvention Inquiry on the Antidumping and Countervailing Duty Orders",
+      "description": "In response to a request from the Magnesia Carbon Bricks Fair Trade Committee (the Committee) (the requester), the U.S. Department of Commerce (Commerce) is initiating a country-wide circumvention inquiry to determine whether imports of certain refractory bricks containing alumina in an amount greater than zero but less than five percent by weight (bricks with trace alumina) from the People's Republic of China (China) are circumventing the antidumping duty (AD) and…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22943/certain-magnesia-carbon-bricks-from-the-peoples-republic-of-china-initiation-of-circumvention"
+    },
+    {
+      "id": "fa4f27ca2bfb761d3bc093fd813e52afb5e2764ea46207f8258ac05ae443265b",
+      "headline": "Commission approves €2 billion Belgian State aid to support offshore wind energy",
+      "description": "European Commission Press release Brussels, 10 Nov 2026 The European Commission has approved a €2.04 billion Belgian scheme to support offshore wind energy in line with the objectives of the Clean Industrial Deal. This measure will contribute to the transition towards a net-zero economy.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-09T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373"
+    },
     {
       "id": "da10e75c2740e13b0a018356abad0b32a131a1ecfe29864eeef4e346cbf9670d",
       "headline": "Threshold for the Requirement To Collect, Retain, and Transmit Information on Funds Transfers and Transmittals of Funds That Begin or End Outside the United States, and Clarification of the Requirement To Collect, Retain, and Transmit…",
