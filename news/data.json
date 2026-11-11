@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-10T17:32:00Z",
+  "updatedAt": "2026-11-11T01:44:32Z",
   "featuredIds": [
-    "e3471b85e9068b8b99f1554dfdec5379440de1153bf64febcfecf26a9b08288e",
-    "92564b1248ff65bf57fad7ac197a3203c708309e7696371ac7dc6e6a74581543",
-    "eeccc616b28cf292dc2061a199061c0d111e6d192a6e181e14d23f65a0a5b2fe"
+    "461728c10cfa467f403f3c04b70f09dfeb6bbd61df4772120039ef56f686e8da",
+    "d491096c4e7be05eacf550144e1cbabb42f8f8702280fa77861177c057592050",
+    "e3d7be500b7d84a1d7768f9b744894dac4e55128b85da2c4cbdecac51039f38f"
   ],
   "lastRun": {
-    "startedAt": "2026-11-10T17:31:56Z",
-    "completedAt": "2026-11-10T17:32:00Z",
+    "startedAt": "2026-11-11T01:44:27Z",
+    "completedAt": "2026-11-11T01:44:32Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -23,7 +23,7 @@
       {
         "source": "european-commission",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "federal-register",
@@ -31,7 +31,7 @@
         "items": 9
       }
     ],
-    "freshArticles": 12
+    "freshArticles": 11
   },
   "articles": [
     {
