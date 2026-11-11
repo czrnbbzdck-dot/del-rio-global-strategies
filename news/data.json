@@ -1,13 +1,11 @@
 {
-  "updatedAt": "2026-11-11T01:44:32Z",
+  "updatedAt": "2026-11-11T17:44:42Z",
   "featuredIds": [
-    "461728c10cfa467f403f3c04b70f09dfeb6bbd61df4772120039ef56f686e8da",
-    "d491096c4e7be05eacf550144e1cbabb42f8f8702280fa77861177c057592050",
-    "e3d7be500b7d84a1d7768f9b744894dac4e55128b85da2c4cbdecac51039f38f"
+    "8132a38cdd3174f927e1040b54d3569b8df141eefe65e19c65ad2c06ef357579"
   ],
   "lastRun": {
-    "startedAt": "2026-11-11T01:44:27Z",
-    "completedAt": "2026-11-11T01:44:32Z",
+    "startedAt": "2026-11-11T17:44:40Z",
+    "completedAt": "2026-11-11T17:44:42Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -18,22 +16,142 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 2
+        "items": 0
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 9
+        "items": 10
       }
     ],
     "freshArticles": 11
   },
   "articles": [
+    {
+      "id": "8d6428bde9608fe2a5bef21731bb914f50ba807de334f2d74788706d8a440168",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, S/V BELLA VITA",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23056/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-sv-bella"
+    },
+    {
+      "id": "3f5fd8546e5ae88056c8bb5eb639fb78d3eeb8152ad60abb52a999c84cc49d7e",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V BRISEA",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23055/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv"
+    },
+    {
+      "id": "5928a0cadc99d95e3bbe79b7f61a08450bbb0edbdb5e96238adba9ae24ff520a",
+      "headline": "Privacy Act of 1974; System of Records",
+      "description": "In accordance with the requirements of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), through the National Institutes of Health (NIH), is rescinding a system of records notice (SORN) titled \"NIH Business System (NBS), HHS/NIH,\" system number 09-25-0217. The records still exist in the NIH Business System Cloud (NBSC) but are now covered by other SORNs. Those SORNs and NIH's purposes for use are: 09-90-0024, HHS Financial Management…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23008/privacy-act-of-1974-system-of-records"
+    },
+    {
+      "id": "cf4662395e90787ff561d14f11623c2090655d227bdb1f54237a1d2c3dd83ec6",
+      "headline": "Long Mott Energy, LLC; Long Mott Generating Station; Construction Permit",
+      "description": "The U.S. Nuclear Regulatory Commission (NRC or the Commission) is providing notice of the issuance of Construction Permit (CP) No. CPAR-3 to Long Mott Energy, LLC (LME) for the Long Mott Generating Station (LMGS) reactor facility.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23029/long-mott-energy-llc-long-mott-generating-station-construction-permit"
+    },
+    {
+      "id": "3d579304e80f4349e72943a825920895cdf5c2a86bc20e0189bbbf709fff84d1",
+      "headline": "Inventory of Mercury Supply, Use, and Trade in the United States 2026 Report; Notice of Availability",
+      "description": "EPA was directed by Congress in the Frank R. Lautenberg Chemical Safety for the 21st Century Act (Lautenberg Act), which amended the Toxic Substances Control Act (TSCA), to carry out and publish in the Federal Register not later than April 1, 2017 and every three years thereafter, an inventory of mercury supply, use, and trade in the United States. The Lautenberg Act defines \"mercury\" as \"elemental mercury\" or \"a mercury compound.\" Consistent with this mandate, EPA is…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23011/inventory-of-mercury-supply-use-and-trade-in-the-united-states-2026-report-notice-of-availability"
+    },
+    {
+      "id": "eaea7ba39349406d328a573020e341f9279ae4b2c11c56c002f59000cff275d3",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Reallocation of Pacific Cod in the Bering Sea and Aleutian Islands Management Area",
+      "description": "NMFS is reallocating the projected unused amounts of Pacific cod from catcher vessels using trawl gear to Amendment 80 (A80) trawl catcher/ processors in the Bering Sea and Aleutian Islands management area (BSAI). This action is necessary to allow the 2026 total allowable catch (TAC) of Pacific cod in the BSAI to be harvested.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23002/fisheries-of-the-exclusive-economic-zone-off-alaska-reallocation-of-pacific-cod-in-the-bering-sea"
+    },
+    {
+      "id": "42a53fcc8feb8df45e513b89849736bb6772b68102c37ad7b960644dbecf7de5",
+      "headline": "Federal Scholarship Tax Credit; Hearing",
+      "description": "This document announces that the public hearing scheduled for December 15, 2026, at 10 a.m. ET, for the notice of proposed rulemaking and notice of public hearing (REG-117199-25) published in the Federal Register on October 2, 2026, has been changed to a telephonic-only hearing. These proposed regulations would provide guidance regarding the non-refundable Federal tax credit for qualified contributions to scholarship granting organizations to fund qualified elementary and…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23032/federal-scholarship-tax-credit-hearing"
+    },
+    {
+      "id": "64f89dd548e3580a66925f8c4ffa02726587b7110375b98c1c61d235da6f9e52",
+      "headline": "Federal Reserve Bank Capital Stock",
+      "description": "The Board of Governors (Board) is publishing a final rule that applies an inflation adjustment to the threshold for total consolidated assets in Regulation I. Federal Reserve Bank (Reserve Bank) stockholders that have total consolidated assets above the threshold receive a different dividend rate on their Reserve Bank stock than stockholders with total consolidated assets at or below the threshold. The Federal Reserve Act requires that the Board annually adjust the total…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23060/federal-reserve-bank-capital-stock"
+    },
+    {
+      "id": "0db8379bd64dccdde199591ba5e7ab96e685816fa6ead3cb259fb8bfc44002b4",
+      "headline": "Agency Information Collection Activities; Proposed eCollection eComments Requested; New Collection; Global Trade & Commerce Enforcement Section Lead Intake Form",
+      "description": "The National Fraud Enforcement Division (FRD), Department of Justice (DOJ), will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23059/agency-information-collection-activities-proposed-ecollection-ecomments-requested-new-collection"
+    },
+    {
+      "id": "8132a38cdd3174f927e1040b54d3569b8df141eefe65e19c65ad2c06ef357579",
+      "headline": "Bringing the current MFF to a successful close: agreement on the final Annual Budget *",
+      "description": "European Commission Press release Brussels, 11 Nov 2026 The Commission welcomes the agreement reached last evening between the European Parliament and the Council of the European Union on the annual EU budget 2027.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-10T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2385"
+    },
     {
       "id": "e3471b85e9068b8b99f1554dfdec5379440de1153bf64febcfecf26a9b08288e",
       "headline": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
