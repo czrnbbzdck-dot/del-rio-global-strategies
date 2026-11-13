@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-13T02:27:36Z",
+  "updatedAt": "2026-11-13T17:33:28Z",
   "featuredIds": [
-    "cf4662395e90787ff561d14f11623c2090655d227bdb1f54237a1d2c3dd83ec6",
-    "3d579304e80f4349e72943a825920895cdf5c2a86bc20e0189bbbf709fff84d1",
-    "eaea7ba39349406d328a573020e341f9279ae4b2c11c56c002f59000cff275d3"
+    "b2851de93965f784a9ec038d0e6891158e2f800a2c1f0b3d35c902a63b388787",
+    "a6cdd9d56704b6cf39a78865113f026d446378609df99adc1184e0a0f741e434",
+    "5261de04720dc6b5ead07f67b9e5fe1a69255ff8519af48b43a797530c53747d"
   ],
   "lastRun": {
-    "startedAt": "2026-11-13T02:27:32Z",
-    "completedAt": "2026-11-13T02:27:36Z",
+    "startedAt": "2026-11-13T17:33:25Z",
+    "completedAt": "2026-11-13T17:33:28Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -18,22 +18,142 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 10
+        "items": 7
       }
     ],
     "freshArticles": 10
   },
   "articles": [
+    {
+      "id": "b2851de93965f784a9ec038d0e6891158e2f800a2c1f0b3d35c902a63b388787",
+      "headline": "Isabel Schnabel: Made in Europe",
+      "description": "Spain, for example, has emerged as a European leader in renewable energy. This has significantly reduced wholesale electricity prices and the country’s vulnerability to global energy price shocks, transforming it into a European hub for the energy-intensive industries of the future. [ 13 ]",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-13T07:20:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+    },
+    {
+      "id": "a6cdd9d56704b6cf39a78865113f026d446378609df99adc1184e0a0f741e434",
+      "headline": "International Energy Agency Meetings",
+      "description": "The Industry Advisory Board (IAB) to the International Energy Agency (IEA) will meet on November 18, 2026, and November 19, 2026, as a hybrid meeting via webinar and in person, in connection with a joint meeting of the IEA's Standing Group on Emergency Questions (SEQ) and the IEA's Standing Group on the Oil Market (SOM) which is scheduled at the same time via webinar and in person.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23128/international-energy-agency-meetings"
+    },
+    {
+      "id": "5261de04720dc6b5ead07f67b9e5fe1a69255ff8519af48b43a797530c53747d",
+      "headline": "Fiscal Year List of Requests From States or Tribes for a Small Business Administration Disaster Declaration",
+      "description": "This notice provides an updated list of requests received by the U.S. Small Business Administration to make a disaster declaration for a state, territory, or tribe. The published list complies with a directive in the explanatory statement of the Consolidated Appropriations Act, 2026, Public Law 119-75.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23179/fiscal-year-list-of-requests-from-states-or-tribes-for-a-small-business-administration-disaster"
+    },
+    {
+      "id": "d9392fc9cb2c0a9ba5eb499284e3a9468125104c52dc3ab15e30e9716b830d3f",
+      "headline": "Crystalline Silicon Photovoltaic Cells, Whether or Not Assembled Into Modules, From the People's Republic of China: Notice of Court Decision Not in Harmony With the Results of Antidumping Administrative Review; Notice of Amended Final…",
+      "description": "On October 29, 2026, the U.S. Court of International Trade (CIT) issued its final judgment in Jinko Solar Import and Export Co., Ltd., et. al. v. United States, Consol. Court no. 22-00219, sustaining the U.S. Department of Commerce's (Commerce) third remand results pertaining to the administrative review of the antidumping duty (AD) order on crystalline silicon photovoltaic cells, whether or not assembled into modules, from the People's Republic of China covering the period…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23154/crystalline-silicon-photovoltaic-cells-whether-or-not-assembled-into-modules-from-the-peoples"
+    },
+    {
+      "id": "e77768f6b4ccdf48f96e7f22361e7619608f14d31faa7cead822655c0c9ebef4",
+      "headline": "Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company; Correction",
+      "description": "The Federal Reserve System published a document in the Federal Register of June 29, 2026, concerning the list of notificants who applied under the Change in Bank Control Act to acquire shares of a bank or bank holding company. The document contained incorrect information under paragraph B.1.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23147/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company-correction"
+    },
+    {
+      "id": "02f9b25764523e943d051569053327de2d560714a9221d140a9bd8e77f75d8de",
+      "headline": "Certain Chassis and Subassemblies Thereof From the People's Republic of China: Continuation of Antidumping Duty and Countervailing Duty Orders",
+      "description": "As a result of the determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC) that revocation of the antidumping duty (AD) order and countervailing duty (CVD) order on certain chassis and subassemblies thereof from the People's Republic of China would likely lead to the continuation or recurrence of dumping, countervailable subsidies, and material injury to an industry in the United States, Commerce is publishing a notice…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23177/certain-chassis-and-subassemblies-thereof-from-the-peoples-republic-of-china-continuation-of"
+    },
+    {
+      "id": "9aa180508d8f66b3d363b46ceedad686d3df9928cc23d98b8c94e5457bc1712f",
+      "headline": "Agency Information Collection Activities: Comment Request",
+      "description": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB) is requesting to extend the Office of Management and Budget's (OMB's) approval for an existing information collection titled \"Generic Information Collection Plan for Foundational Research About Consumer Credit Markets and Household Financial Decision-Making\" approved under OMB Control Number 3170- 0082.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23152/agency-information-collection-activities-comment-request"
+    },
+    {
+      "id": "be269ba0b058c50d87976436baeef5ee7ab5bed496f4ce5c9714f70a7b068bb6",
+      "headline": "Agency Information Collection Activities: Comment Request",
+      "description": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (Bureau) requests the Office of Management and Budget's (OMB's) extension of the existing information collection titled \"Payday, Vehicle Title, and Certain High-Cost Installment Loans\" approved under OMB Control Number 3170- 0071.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23151/agency-information-collection-activities-comment-request"
+    },
+    {
+      "id": "fa72e6849c0fbde337f6828f94b80c4351bd24561e09e62d82b6edc5b12db652",
+      "headline": "Commission sends Supplementary Statement of Objections to PPC over predatory pricing in the Greek wholesale electricity market",
+      "description": "European Commission Press release Brussels, 13 Nov 2026 The European Commission has sent a Supplementary Statement of Objections to the Greek electricity provider Public Power Corporation S.A. ('PPC').",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-12T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422"
+    },
+    {
+      "id": "cbeefa1147a8564a3bda00c0d745f4e2e40e4ae68e130cea70d1d799d481e39e",
+      "headline": "Commission approves €286 million German State aid to port of Hamburg",
+      "description": "European Commission Press release Brussels, 13 Nov 2026 The European Commission has approved, under EU State aid rules, two €143 million German measures to support infrastructure works in the port of Hamburg. The measures concern two distinct infrastructure projects, one at the Salzgitter quay and one at the Steinwerder quay.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-12T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2360"
+    },
     {
       "id": "8d6428bde9608fe2a5bef21731bb914f50ba807de334f2d74788706d8a440168",
       "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, S/V BELLA VITA",
