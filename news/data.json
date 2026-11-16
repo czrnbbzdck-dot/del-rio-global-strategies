@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-16T01:37:29Z",
+  "updatedAt": "2026-11-16T20:02:26Z",
   "featuredIds": [
-    "d9392fc9cb2c0a9ba5eb499284e3a9468125104c52dc3ab15e30e9716b830d3f",
-    "e77768f6b4ccdf48f96e7f22361e7619608f14d31faa7cead822655c0c9ebef4",
-    "b2851de93965f784a9ec038d0e6891158e2f800a2c1f0b3d35c902a63b388787"
+    "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c",
+    "9ef9d51d3e595e1ec4027c8f0a6b19ed5c1247a7f176cc1cfe5a1ba3b414ab87",
+    "6b39242d8ad200d28e4dcdb4fec082bc9ae6a165ff21ceec80c09c53af834804"
   ],
   "lastRun": {
-    "startedAt": "2026-11-16T01:37:26Z",
-    "completedAt": "2026-11-16T01:37:29Z",
+    "startedAt": "2026-11-16T20:02:13Z",
+    "completedAt": "2026-11-16T20:02:26Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -18,12 +18,12 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "federal-register",
@@ -31,9 +31,45 @@
         "items": 10
       }
     ],
-    "freshArticles": 10
+    "freshArticles": 13
   },
   "articles": [
+    {
+      "id": "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c",
+      "headline": "Frank Elderson: Smart supervision for small banks",
+      "description": "As Europe searches for ways to strengthen its long-term growth and competitiveness, these banks will continue to play an important role. But they are very different from large, internationally active banking groups: their business models are often simpler, their activities more focused and their risk profiles less complex. A regulatory and supervisory framework that recognises those differences can support both resilience and competitiveness.",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-16T13:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html"
+    },
+    {
+      "id": "3b1c758cfacc5239da47038f858d149b702b5eb1a60ab3883bc85454340a3408",
+      "headline": "Commission disburses another €1.71 billion to Ukraine for drones, ammunition and air defence systems",
+      "description": "European Commission Press release Brussels, 16 Nov 2026 Today, the European Commission disbursed €1.71 billion to Ukraine under the €90 billion Ukraine Support Loan.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-16T10:23:52Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2452"
+    },
+    {
+      "id": "e583d81e56c0577758ef244408e497ac7a48e21fe14744deb046ab31501bcd88",
+      "headline": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "description": "But the ongoing war in the Middle East continues to push energy prices up, leading to high energy inflation. At the same time, trade policy uncertainty has not abated significantly. Headline inflation in the euro area increased to 4% in October, from 3.8% in September, mainly due to higher energy prices. Underlying inflation has remained broadly stable and wages are not showing a material response at this stage. Overall, recent energy price developments may push inflation…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-16T08:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html"
+    },
     {
       "id": "9ef9d51d3e595e1ec4027c8f0a6b19ed5c1247a7f176cc1cfe5a1ba3b414ab87",
       "headline": "Review of Submarine Cable Landing License Rules and Procedures To Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks",
