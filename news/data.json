@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-16T20:02:26Z",
+  "updatedAt": "2026-11-17T04:21:38Z",
   "featuredIds": [
-    "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c",
-    "9ef9d51d3e595e1ec4027c8f0a6b19ed5c1247a7f176cc1cfe5a1ba3b414ab87",
-    "6b39242d8ad200d28e4dcdb4fec082bc9ae6a165ff21ceec80c09c53af834804"
+    "3b1c758cfacc5239da47038f858d149b702b5eb1a60ab3883bc85454340a3408",
+    "e583d81e56c0577758ef244408e497ac7a48e21fe14744deb046ab31501bcd88",
+    "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c"
   ],
   "lastRun": {
-    "startedAt": "2026-11-16T20:02:13Z",
-    "completedAt": "2026-11-16T20:02:26Z",
-    "successfulSources": 4,
+    "startedAt": "2026-11-17T04:21:35Z",
+    "completedAt": "2026-11-17T04:21:38Z",
+    "successfulSources": 3,
     "sourceResults": [
       {
         "source": "bea",
@@ -27,11 +27,11 @@
       },
       {
         "source": "federal-register",
-        "status": "success",
-        "items": 10
+        "status": "failed",
+        "error": "Federal Register API response has an invalid format"
       }
     ],
-    "freshArticles": 13
+    "freshArticles": 3
   },
   "articles": [
     {
