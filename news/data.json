@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-17T04:21:38Z",
+  "updatedAt": "2026-11-17T18:58:37Z",
   "featuredIds": [
-    "3b1c758cfacc5239da47038f858d149b702b5eb1a60ab3883bc85454340a3408",
-    "e583d81e56c0577758ef244408e497ac7a48e21fe14744deb046ab31501bcd88",
-    "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c"
+    "c7d88c08a7b82089eddebc7733765cd51574d4002dbcc39a3887cb8fe1a18f0f",
+    "ccf4af5edaca3ce1a8fd0c14473ef25c9da507b0463fd5e671c3b6c837926f42",
+    "9b522486b6ae1ac338521f5d5b4d58140f19e0e118def7baad1f39b0f8f3f35b"
   ],
   "lastRun": {
-    "startedAt": "2026-11-17T04:21:35Z",
-    "completedAt": "2026-11-17T04:21:38Z",
-    "successfulSources": 3,
+    "startedAt": "2026-11-17T18:58:35Z",
+    "completedAt": "2026-11-17T18:58:37Z",
+    "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
@@ -18,22 +18,94 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 2
+        "items": 0
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "federal-register",
-        "status": "failed",
-        "error": "Federal Register API response has an invalid format"
+        "status": "success",
+        "items": 6
       }
     ],
-    "freshArticles": 3
+    "freshArticles": 6
   },
   "articles": [
+    {
+      "id": "c7d88c08a7b82089eddebc7733765cd51574d4002dbcc39a3887cb8fe1a18f0f",
+      "headline": "Small Business Investment Company (SBIC) Leverage Availability",
+      "description": "The U.S. Small Business Administration (\"SBA\" or \"Agency\") is publishing this interim final rule (\"IFR\") amending the U.S. Small Business Administration's loan guarantee regulations applicable to the Small Business Investment Company (\"SBIC\") program to implement the provisions of the Investing in All of America Act of 2025 (\"the Investing Act\"). These provisions increase the maximum amount of leverage available to SBICs issuing standard debentures in ratios of up to…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23358/small-business-investment-company-sbic-leverage-availability"
+    },
+    {
+      "id": "ccf4af5edaca3ce1a8fd0c14473ef25c9da507b0463fd5e671c3b6c837926f42",
+      "headline": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+      "description": "The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant"
+    },
+    {
+      "id": "9b522486b6ae1ac338521f5d5b4d58140f19e0e118def7baad1f39b0f8f3f35b",
+      "headline": "Loan Guaranty: Assistance to Eligible Individuals in Acquiring Specially Adapted Housing; Cost-of-Construction Index for Fiscal Year 2027",
+      "description": "The Department of Veterans Affairs (VA) announces that the aggregate amounts of assistance available under the Specially Adapted Housing (SAH) grant program will increase by 5.15 percent for fiscal year (FY) 2027.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23354/loan-guaranty-assistance-to-eligible-individuals-in-acquiring-specially-adapted-housing"
+    },
+    {
+      "id": "c42dea25e1d15f0479b374ea911083f982081a0237faa598384bd5332f30c99c",
+      "headline": "Draft Environmental Assessment, Public Hearing, and Request for Comment on the Maximum Economic Recovery and Fair Market Value for the Falkirk Mining Company Proposed Federal Coal Lease-By-Application and Mining Plan for NDMT106782389…",
+      "description": "The Bureau of Land Management (BLM) and the Office of Surface Mining Reclamation and Enforcement (OSM) announce that a draft environmental assessment (EA) is available for public review for the Falkirk Mining Company's Federal coal lease-by-application (LBA) for Falkirk Mine, serial number NDMT 106782389, and mining plan for the proposed NDMT 106782389. The BLM also announces that a public hearing will be held to receive comments on the Fair Market Value (FMV), Maximum…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23399/draft-environmental-assessment-public-hearing-and-request-for-comment-on-the-maximum-economic"
+    },
+    {
+      "id": "e7461561748dc6ff42c48c4f339a20be267e9e07e150057d82890a0e66a5eb1a",
+      "headline": "Chartering and Field of Membership for Federal Credit Unions; Associational Common Bonds and Client-Customer Relationships",
+      "description": "The NCUA Board (Board) is issuing a final rule to amend its criteria for determining associational common bonds. The amendments clarify that requiring members to buy a good, product, or service from a group as a condition of membership will no longer automatically bar eligibility as a recognized association. After considering public comments, the Board finalizes the proposed rule with certain modifications. The Board's revisions detail how NCUA assesses client- customer…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23392/chartering-and-field-of-membership-for-federal-credit-unions-associational-common-bonds-and"
+    },
+    {
+      "id": "630f69357fef40808e0476604b72a80bbe8980daa8fad336d2ac6be956f1c9ee",
+      "headline": "Agency Information Collection Activities; Comment Request; Federal Direct Loan Program and Federal Family Education Loan Program Teacher Loan Forgiveness Forms",
+      "description": "In accordance with the Paperwork Reduction Act (PRA) of 1995, the Department is proposing and extension without change of a currently approved information collection request (ICR).",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23396/agency-information-collection-activities-comment-request-federal-direct-loan-program-and-federal"
+    },
     {
       "id": "9ffc52ce7f21136fde698e3518caed27931aef880f34c90eb1227c1e5a5fa59c",
       "headline": "Frank Elderson: Smart supervision for small banks",
