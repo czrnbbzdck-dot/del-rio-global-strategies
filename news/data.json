@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-18T03:22:27Z",
+  "updatedAt": "2026-11-18T18:42:41Z",
   "featuredIds": [
-    "c42dea25e1d15f0479b374ea911083f982081a0237faa598384bd5332f30c99c",
-    "e7461561748dc6ff42c48c4f339a20be267e9e07e150057d82890a0e66a5eb1a",
-    "630f69357fef40808e0476604b72a80bbe8980daa8fad336d2ac6be956f1c9ee"
+    "a27da5e95d17f65a053f301ba56214f39bb4e0bf88e41441c042928f28ba7fad",
+    "01f1c87b91ecde2d24dcbda6ced17068404f896a868758977cd381f849acbbb4",
+    "178ec34dd73e0379805e2bdff2a86013880702e2cb1cedee6da8970152fb2f21"
   ],
   "lastRun": {
-    "startedAt": "2026-11-18T03:22:24Z",
-    "completedAt": "2026-11-18T03:22:27Z",
+    "startedAt": "2026-11-18T18:42:38Z",
+    "completedAt": "2026-11-18T18:42:41Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "european-commission",
@@ -28,12 +28,144 @@
       {
         "source": "federal-register",
         "status": "success",
-        "items": 6
+        "items": 10
       }
     ],
-    "freshArticles": 6
+    "freshArticles": 12
   },
   "articles": [
+    {
+      "id": "a27da5e95d17f65a053f301ba56214f39bb4e0bf88e41441c042928f28ba7fad",
+      "headline": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+      "description": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T15:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025"
+    },
+    {
+      "id": "01f1c87b91ecde2d24dcbda6ced17068404f896a868758977cd381f849acbbb4",
+      "headline": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "description": "The euro area banking sector is well positioned to absorb potential shocks, underpinned by strong profits, solid capital buffers and ample liquidity. Preserving bank resilience remains a key macroprudential priority, alongside addressing vulnerabilities related to liquidity and high levels of borrowing among some non-banks. Accelerating progress on the EU’s savings and investments union will also be essential to support economic growth and competitiveness while preserving…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-18T09:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+    },
+    {
+      "id": "178ec34dd73e0379805e2bdff2a86013880702e2cb1cedee6da8970152fb2f21",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V OSIRIS",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23510/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv"
+    },
+    {
+      "id": "eaa5f46647aba982b30fd6417e2111fd56235e23c01f99b2b72387da243f2f6e",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V NEXUS",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23509/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-nexus"
+    },
+    {
+      "id": "b23baa41081762d63fdf27c9a6a5cda598d8cb6841aebdee01a4f2207cec7bb6",
+      "headline": "Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V ANNIE LAURIE",
+      "description": "The Secretary of Transportation, as represented by MARAD, is authorized to make determinations regarding the coastwise use of foreign built; certain U.S. built; and U.S. and foreign rebuilt vessels that solely carry no more than twelve passengers for hire. MARAD has received such a determination request and is publishing this notice to solicit comments to assist with determining whether the proposed use of the vessel set forth in the request would have an adverse effect on…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23511/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-annie"
+    },
+    {
+      "id": "6cb6efd052f1155dd946d15aafba17425ea09b2093cb7e5fd4a1e3d53c157e09",
+      "headline": "Proposed Third-Party Risk Management Guide for Traditional Community Banking Organizations",
+      "description": "On September 15, 2026, the Board of Governors of the Federal Reserve System (Board) published in the Federal Register a proposed guide for traditional community banking organizations on managing risks associated with third-party relationships. The proposal provided for a comment period ending on November 16, 2026. The Board is extending the comment period for 30 days, until December 16, 2026.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23417/proposed-third-party-risk-management-guide-for-traditional-community-banking-organizations"
+    },
+    {
+      "id": "55149d55ab08951a0033a532a6bf38c824d0de20a8006f854d5733716a2ef928",
+      "headline": "Proposed Information Collection: Office of Disability Employment Policy Quick Turnaround Surveys",
+      "description": "The Department of Labor, as part of its continuing effort to reduce paperwork and respondent burden, conducts a pre-clearance request for comment to provide the general public and Federal agencies with an opportunity to comment on proposed collections of information in accordance with the Paperwork Reduction Act of 1995. This request helps to ensure that: requested data can be provided in the desired format; reporting burden (time and financial resources) is minimized…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23487/proposed-information-collection-office-of-disability-employment-policy-quick-turnaround-surveys"
+    },
+    {
+      "id": "da258628d9f7914bff407fbd276a53dacc1daa1a9d8d22eeea4f0c3839a8c986",
+      "headline": "Electric Power Generation, Transmission, and Distribution Standards for Construction and General Industry and Electrical Protective Equipment Standards for Construction and General Industry; Extension of the Office of Management and…",
+      "description": "OSHA solicits public comments concerning the proposal to extend the Office of Management and Budget's (OMB) approval of the information collection requirements specified in the Electric Power Generation, Transmission, and Distribution Standards for Construction and General Industry and Electrical Protective Equipment Standards for Construction and General Industry.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23486/electric-power-generation-transmission-and-distribution-standards-for-construction-and-general"
+    },
+    {
+      "id": "75bdd9b5ab82203d7d9164660a0b1c9d261a8b1b959b64f1a96cee44c181093d",
+      "headline": "Correction; Job Corps Health Questionnaire (OMB No. 1205-0033)",
+      "description": "This is a correction of a notice published October 16, 2026 (91 FR 65786) which in error referenced OMB No. 1205-0149 instead of 1205-0033. The OMB will consider all written comments that the agency receives on or before November 16, 2026.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23488/correction-job-corps-health-questionnaire-omb-no-1205-0033"
+    },
+    {
+      "id": "438983415494042a9ac9ea75fa90b826683364c5de51e8ec5b4288c4cdeff535",
+      "headline": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Renewable Energy and Alternate Uses of Existing Facilities on the Outer Continental Shelf",
+      "description": "In accordance with the Paperwork Reduction Act (PRA) of 1995, the Marine Minerals Administration (MMA) proposes to renew an information collection.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23455/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for"
+    },
+    {
+      "id": "00b4318791e82df2c3e16c65de559fe3164972be28189f18e4acf2887eacdd65",
+      "headline": "30-Day Proposed Information Collection: Addendum to Declaration for Federal Employment (OF 306), Indian Health Service, Child Care and Indian Child Care Worker Positions",
+      "description": "In compliance with the Paperwork Reduction Act of 1995, the Indian Health Service (IHS) invites the general public to take this opportunity to comment on a new information collection titled, \"Addendum to Declaration for Federal Employment (OF 306), Indian Health Service, Child Care and Indian Child Care Worker Positions,\" Office of Management and Budget (OMB), Control Number 0917-0028. The purpose of this notice is to announce the IHS's intent to submit this information…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23468/30-day-proposed-information-collection-addendum-to-declaration-for-federal-employment-of-306-indian"
+    },
     {
       "id": "c7d88c08a7b82089eddebc7733765cd51574d4002dbcc39a3887cb8fe1a18f0f",
       "headline": "Small Business Investment Company (SBIC) Leverage Availability",
