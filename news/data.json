@@ -1,39 +1,111 @@
 {
-  "updatedAt": "2026-11-19T02:57:34Z",
+  "updatedAt": "2026-11-19T18:54:25Z",
   "featuredIds": [
-    "a27da5e95d17f65a053f301ba56214f39bb4e0bf88e41441c042928f28ba7fad",
-    "eaa5f46647aba982b30fd6417e2111fd56235e23c01f99b2b72387da243f2f6e",
-    "01f1c87b91ecde2d24dcbda6ced17068404f896a868758977cd381f849acbbb4"
+    "6592f1868ebcdc28a48bdaa448742fdc4e2bc4c81553e503e98ae24fcceace33",
+    "081a007ededc8d1137a986d16d512dcc8d43fd7d5afa5966ef05acbaacbe0463",
+    "db0389aeb6ac31e7beca035f96d4744f1ed1f8373a0f0329b884a57e2d0ec790"
   ],
   "lastRun": {
-    "startedAt": "2026-11-19T02:57:31Z",
-    "completedAt": "2026-11-19T02:57:34Z",
+    "startedAt": "2026-11-19T18:54:22Z",
+    "completedAt": "2026-11-19T18:54:25Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 10
+        "items": 6
       }
     ],
-    "freshArticles": 12
+    "freshArticles": 7
   },
   "articles": [
+    {
+      "id": "6592f1868ebcdc28a48bdaa448742fdc4e2bc4c81553e503e98ae24fcceace33",
+      "headline": "Veteran Readiness and Employment Program: Update to Reduced Work Tolerance and Basic Eligibility Period",
+      "description": "The Department of Veterans Affairs (VA) proposes to amend the Veteran Readiness and Employment (VR&E) regulations to align with current practice and statute. The rule would expand the list of approved providers for reduced work tolerance (RWT) documentation, allowing for more accurate and timely processing by a Vocational Rehabilitation Counselor (VRC). VA also proposes to clarify that a veteran who is subject to a basic period of eligibility would receive a new 12-year…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23571/veteran-readiness-and-employment-program-update-to-reduced-work-tolerance-and-basic-eligibility"
+    },
+    {
+      "id": "db0389aeb6ac31e7beca035f96d4744f1ed1f8373a0f0329b884a57e2d0ec790",
+      "headline": "SBIC License Issuance",
+      "description": "Pursuant to the authority granted to the United States Small Business Administration under section 301(c) of the Small Business Investment Act of 1958, as amended, to grant Small Business Investment Company licenses under the Small Business Investment Company Program, this notice satisfies the requirement effective August 17, 2023 under 13 CFR 107.501(a) to publish in the Federal Register the names of SBICs with date of licensure and Total Intended Leverage Commitments. The…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23596/sbic-license-issuance"
+    },
+    {
+      "id": "4b653f743ee411cd64ac168eb82e910317d221c8a3159422b5d99efe95c81f66",
+      "headline": "Customer Due Diligence Requirements for Covered Financial Institutions",
+      "description": "FinCEN is issuing this proposed rule to strengthen customer due diligence requirements under the Customer Due Diligence Rule consistent with the policy goals of, and as directed by, Executive Order 14406, Restoring Integrity to America's Financial System. Specifically, the proposal ensures financial institutions covered by the Customer Due Diligence Rule collect sufficient information to verify the identities of beneficial owners of legal entity customers and maintain the…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23614/customer-due-diligence-requirements-for-covered-financial-institutions"
+    },
+    {
+      "id": "58db98dc92e648d81d3a0e57cf99feec7a06f72cf5ad0eced0dc010e93e74ed9",
+      "headline": "Administrative Declaration of an Economic Injury Disaster for the State of California",
+      "description": "This is notice of an Economic Injury Disaster Loan (EIDL) declaration for the state of California dated November 16, 2026. Incident: Old Town Newhall Fire.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23600/administrative-declaration-of-an-economic-injury-disaster-for-the-state-of-california"
+    },
+    {
+      "id": "79a15b507e411ee0bda2b16da9cc8288470bb1becfc4b4f9e3eb3c094661e908",
+      "headline": "Administrative Declaration of an Economic Injury Disaster for the State of California",
+      "description": "This is notice of an Economic Injury Disaster Loan (EIDL) declaration for the state of California dated November 12, 2026. Incident: Hurricane Marie.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23574/administrative-declaration-of-an-economic-injury-disaster-for-the-state-of-california"
+    },
+    {
+      "id": "081a007ededc8d1137a986d16d512dcc8d43fd7d5afa5966ef05acbaacbe0463",
+      "headline": "EU and Jordan advance strategic partnership backed by €3 billion to boost investment, create jobs and strengthen regional stability",
+      "description": "European Commission Press release Amman, 19 Nov 2026 Today, European Commission President Ursula von der Leyen and Commissioner for the Mediterranean Dubravka Šuica took part in the EU-Jordan Investment Conference at the Dead Sea. Alongside His Majesty King Abdullah II bin Al-Hussein, President von der Leyen witnessed the signing of agreements to support Jordan's economic modernisation and resilience.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-18T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2508"
+    },
     {
       "id": "a27da5e95d17f65a053f301ba56214f39bb4e0bf88e41441c042928f28ba7fad",
       "headline": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
