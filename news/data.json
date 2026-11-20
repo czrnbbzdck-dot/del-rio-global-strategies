@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-20T02:52:50Z",
+  "updatedAt": "2026-11-20T18:23:57Z",
   "featuredIds": [
-    "4b653f743ee411cd64ac168eb82e910317d221c8a3159422b5d99efe95c81f66",
-    "58db98dc92e648d81d3a0e57cf99feec7a06f72cf5ad0eced0dc010e93e74ed9",
-    "79a15b507e411ee0bda2b16da9cc8288470bb1becfc4b4f9e3eb3c094661e908"
+    "c2f836051e32ffb57e15b3d3490314c7deda4068c3ec6df2621832c16c5ebe39",
+    "e6c33934d167226da4b7c8049cb9c3556dbc3911e7acb1c78ce0edffdebcd579",
+    "570bf9a1a28a44bfa83bf2b7ee490d5f02fd3a365a845745c71451a024a61840"
   ],
   "lastRun": {
-    "startedAt": "2026-11-20T02:52:47Z",
-    "completedAt": "2026-11-20T02:52:50Z",
+    "startedAt": "2026-11-20T18:23:54Z",
+    "completedAt": "2026-11-20T18:23:57Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "european-commission",
@@ -28,12 +28,72 @@
       {
         "source": "federal-register",
         "status": "success",
-        "items": 6
+        "items": 3
       }
     ],
-    "freshArticles": 6
+    "freshArticles": 5
   },
   "articles": [
+    {
+      "id": "c2f836051e32ffb57e15b3d3490314c7deda4068c3ec6df2621832c16c5ebe39",
+      "headline": "Activities of U.S. Multinational Enterprises, 2024",
+      "description": "Worldwide employment by U.S. multinational enterprises increased 0.9 percent to 44.2 million workers in 2024 (preliminary) from 43.8 million workers in 2023 (revised), according to statistics released today by the U.S. Bureau of Economic Analysis on the operations and finances of U.S. parent companies and their majority-owned foreign affiliates.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-20T13:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024"
+    },
+    {
+      "id": "e6c33934d167226da4b7c8049cb9c3556dbc3911e7acb1c78ce0edffdebcd579",
+      "headline": "Christine Lagarde: Acting in time",
+      "description": "In preparing for today, I reread those speeches. The topics have varied, from growth and inflation to capital markets and the Single Market.",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-20T08:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+    },
+    {
+      "id": "570bf9a1a28a44bfa83bf2b7ee490d5f02fd3a365a845745c71451a024a61840",
+      "headline": "Transfer of a Premarket Notification (510(k)) Clearance-Questions and Answers; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "description": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Transfer of a Premarket Notification (510(k)) Clearance--Questions and Answers.\" This guidance provides information on the most frequently asked questions regarding the transfer or sale of a 510(k) clearance from one 510(k) holder to another.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23668/transfer-of-a-premarket-notification-510k-clearance-questions-and-answers-guidance-for-industry-and"
+    },
+    {
+      "id": "267336f09296170aae3a379119d4d1f79c447e6cfd05e56df4a7912f38955989",
+      "headline": "Proposed Collection; Comment Request",
+      "description": "In accordance with the requirements of the Paperwork Reduction Act of 1995 (PRA), the Federal Housing Finance Agency (FHFA) is seeking public comments concerning an information collection known as \"Federal Home Loan Bank Capital Stock,\" which has been assigned control number 2590-0002 by the Office of Management and Budget (OMB). FHFA intends to submit the information collection to OMB for review and approval of a three-year extension of the control number, which is due to…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23701/proposed-collection-comment-request"
+    },
+    {
+      "id": "6a0e324afc343cf5587bd749e7cddea13812a8cb29c5f200cf2a74109070803b",
+      "headline": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+      "description": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry titled \"Bioequivalence Recommendations for Specific…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23692/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability"
+    },
     {
       "id": "6592f1868ebcdc28a48bdaa448742fdc4e2bc4c81553e503e98ae24fcceace33",
       "headline": "Veteran Readiness and Employment Program: Update to Reduced Work Tolerance and Basic Eligibility Period",
