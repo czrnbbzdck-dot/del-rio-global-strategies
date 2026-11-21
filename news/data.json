@@ -1,39 +1,133 @@
 {
-  "updatedAt": "2026-11-21T03:00:27Z",
+  "updatedAt": "2026-11-21T17:10:07Z",
   "featuredIds": [
-    "267336f09296170aae3a379119d4d1f79c447e6cfd05e56df4a7912f38955989",
-    "c2f836051e32ffb57e15b3d3490314c7deda4068c3ec6df2621832c16c5ebe39",
-    "e6c33934d167226da4b7c8049cb9c3556dbc3911e7acb1c78ce0edffdebcd579"
+    "c2d78a91e714a0c5ac5732c2dfc0ae8ba2c08d31bfb68cf07ff5eb5069b22fe6"
   ],
   "lastRun": {
-    "startedAt": "2026-11-21T03:00:05Z",
-    "completedAt": "2026-11-21T03:00:27Z",
-    "successfulSources": 3,
+    "startedAt": "2026-11-21T17:10:04Z",
+    "completedAt": "2026-11-21T17:10:07Z",
+    "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "european-commission",
-        "status": "failed",
-        "error": "The read operation timed out"
+        "status": "success",
+        "items": 1
       },
       {
         "source": "federal-register",
         "status": "success",
-        "items": 3
+        "items": 7
       }
     ],
-    "freshArticles": 5
+    "freshArticles": 8
   },
   "articles": [
+    {
+      "id": "b296b7b07f8569b5965aee002a9bb4ac690a731c2475f7687f709590ae7e8a71",
+      "headline": "Plastic Balloons From China; Institution of Antidumping and Countervailing Duty Investigations and Scheduling of Preliminary Phase Investigations",
+      "description": "The Commission hereby gives notice of the institution of investigations and commencement of preliminary phase countervailing duty and antidumping duty investigation Nos. 701-TA-812 and 731-TA-1814 (Preliminary) pursuant to the Tariff Act of 1930 to determine whether there is a reasonable indication that an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materially retarded…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23751/plastic-balloons-from-china-institution-of-antidumping-and-countervailing-duty-investigations-and"
+    },
+    {
+      "id": "ab49badbfedde82905c00900cf7dbf9b01d1f8d494128f8e19a2dea8659b8b1b",
+      "headline": "North American Free Trade Agreement (NAFTA), Article 1904; Binational Panel Review: Notice of Completion of Panel Review",
+      "description": "In accordance with Rules 78 and 80 of the NAFTA Rules of Procedure for Article 1904 Binational Panel Reviews, the Certain Softwood Lumber Products from Canada: Final Results of the Countervailing Duty Investigation and Final Determination (Secretariat File Number: USA-CDA-2017-1904-02) Panel Review was completed and the panelists were discharged from their duties effective November 19, 2026.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23773/north-american-free-trade-agreement-nafta-article-1904-binational-panel-review-notice-of-completion"
+    },
+    {
+      "id": "25d0a3e230aef68f0c933d49b0f60015fded413336df1f6885acf8bc6d584f5b",
+      "headline": "Interim Staff Guidance: NRC Application Pathway for Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
+      "description": "The U.S. Nuclear Regulatory Commission (NRC) is issuing Interim Staff Guidance (ISG), DANU-ISG-2026-02, \"NRC Application Pathway for Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War.\" The purpose of this guidance is to provide a roadmap to NRC requirements, and associated implementing guidance, in select foundational areas to support streamlined NRC reviews of certain applications that propose to address the accomplishment of safety…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23753/interim-staff-guidance-nrc-application-pathway-for-reactor-designs-previously-authorized-by-us"
+    },
+    {
+      "id": "466760bab5c2446368c947b2aed36c1e83ae867755687b1158a33928adb3cd22",
+      "headline": "Federal Financial Participation in State Assistance Expenditures; Federal Matching Shares for Medicaid, the Children's Health Insurance Program, and Aid to Needy Aged, Blind, or Disabled Persons for October 1, 2027, Through September 30…",
+      "description": "The Federal Medical Assistance Percentages (FMAP) and Enhanced Federal Medical Assistance Percentages (eFMAP) for fiscal year 2028 have been calculated pursuant to the Social Security Act (the Act). These percentages will be effective from October 1, 2027, through September 30, 2028. This notice announces the calculated FMAP rates, in accordance with the Act, that the U.S. Department of Health and Human Services (HHS) will use in determining the amount of Federal matching…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "Puerto Rico",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23741/federal-financial-participation-in-state-assistance-expenditures-federal-matching-shares-for"
+    },
+    {
+      "id": "3412fa66ea45ea5dde2fe3f147fdcc68e3e062d4df1f10fb3fefba72c024718e",
+      "headline": "Defense Trade Advisory Group; Notice of Open Meeting",
+      "description": "The Defense Trade Advisory Group (DTAG) will meet in open session. The membership of this advisory committee consists of defense trade representatives, appointed by the Assistant Secretary of State for Political-Military Affairs, who advise the Department on U.S. laws, policies, and regulations regarding exports of defense articles, defense services, and related technical data, including both Foreign Military Sales (FMS) and Direct Commercial Sales (DCS).",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23775/defense-trade-advisory-group-notice-of-open-meeting"
+    },
+    {
+      "id": "809173c261aa6af8c25effa71039aca2b515d8d41b4824f69d1fe6dd60d0fa15",
+      "headline": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Generic Clearance for Economic Surveys of the Commercial and Charter Fishing Sectors of U.S.…",
+      "description": "The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment preceding submission of the collection to OMB.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23811/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+    },
+    {
+      "id": "425f16ec59a0bfaf0cb0e528721c9c4e79ffe8ca8f2f37a2963804e51c4e620c",
+      "headline": "Agency Information Collection Activities: Determining Eligibility for Free and Reduced Price Meals and Free Milk in Schools-7 CFR Part 245",
+      "description": "In accordance with the Paperwork Reduction Act of 1995, this notice invites the general public and other public agencies to comment on this proposed information collection. This collection is a reinstatement with change of a previously approved collection for determining eligibility for free and reduced price meals and free milk as stated in FNA regulations. These Federal requirements affect eligibility under the National School Lunch Program, School Breakfast Program, and…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23796/agency-information-collection-activities-determining-eligibility-for-free-and-reduced-price-meals"
+    },
+    {
+      "id": "c2d78a91e714a0c5ac5732c2dfc0ae8ba2c08d31bfb68cf07ff5eb5069b22fe6",
+      "headline": "EU and Indonesia sign ambitious trade and investment agreements",
+      "description": "European Commission Press release Brussels, 21 Nov 2026 The European Union and Indonesia today signed their Comprehensive Economic Partnership Agreement (CEPA), and Investment Protection Agreement (IPA).",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-20T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532"
+    },
     {
       "id": "c2f836051e32ffb57e15b3d3490314c7deda4068c3ec6df2621832c16c5ebe39",
       "headline": "Activities of U.S. Multinational Enterprises, 2024",
