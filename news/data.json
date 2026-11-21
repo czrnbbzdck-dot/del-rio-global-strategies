@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-20T18:23:57Z",
+  "updatedAt": "2026-11-21T03:00:27Z",
   "featuredIds": [
+    "267336f09296170aae3a379119d4d1f79c447e6cfd05e56df4a7912f38955989",
     "c2f836051e32ffb57e15b3d3490314c7deda4068c3ec6df2621832c16c5ebe39",
-    "e6c33934d167226da4b7c8049cb9c3556dbc3911e7acb1c78ce0edffdebcd579",
-    "570bf9a1a28a44bfa83bf2b7ee490d5f02fd3a365a845745c71451a024a61840"
+    "e6c33934d167226da4b7c8049cb9c3556dbc3911e7acb1c78ce0edffdebcd579"
   ],
   "lastRun": {
-    "startedAt": "2026-11-20T18:23:54Z",
-    "completedAt": "2026-11-20T18:23:57Z",
-    "successfulSources": 4,
+    "startedAt": "2026-11-21T03:00:05Z",
+    "completedAt": "2026-11-21T03:00:27Z",
+    "successfulSources": 3,
     "sourceResults": [
       {
         "source": "bea",
@@ -22,8 +22,8 @@
       },
       {
         "source": "european-commission",
-        "status": "success",
-        "items": 0
+        "status": "failed",
+        "error": "The read operation timed out"
       },
       {
         "source": "federal-register",
