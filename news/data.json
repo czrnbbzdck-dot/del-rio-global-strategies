@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-21T17:10:07Z",
+  "updatedAt": "2026-11-22T01:56:19Z",
   "featuredIds": [
     "c2d78a91e714a0c5ac5732c2dfc0ae8ba2c08d31bfb68cf07ff5eb5069b22fe6"
   ],
   "lastRun": {
-    "startedAt": "2026-11-21T17:10:04Z",
-    "completedAt": "2026-11-21T17:10:07Z",
+    "startedAt": "2026-11-22T01:56:17Z",
+    "completedAt": "2026-11-22T01:56:19Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -21,7 +21,7 @@
       {
         "source": "european-commission",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "federal-register",
@@ -29,7 +29,7 @@
         "items": 7
       }
     ],
-    "freshArticles": 8
+    "freshArticles": 7
   },
   "articles": [
     {
