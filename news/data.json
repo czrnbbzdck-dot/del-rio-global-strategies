@@ -1,11 +1,13 @@
 {
-  "updatedAt": "2026-11-23T02:21:20Z",
+  "updatedAt": "2026-11-23T21:55:40Z",
   "featuredIds": [
-    "c2d78a91e714a0c5ac5732c2dfc0ae8ba2c08d31bfb68cf07ff5eb5069b22fe6"
+    "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530",
+    "b296b7b07f8569b5965aee002a9bb4ac690a731c2475f7687f709590ae7e8a71",
+    "25d0a3e230aef68f0c933d49b0f60015fded413336df1f6885acf8bc6d584f5b"
   ],
   "lastRun": {
-    "startedAt": "2026-11-23T02:21:19Z",
-    "completedAt": "2026-11-23T02:21:20Z",
+    "startedAt": "2026-11-23T21:55:36Z",
+    "completedAt": "2026-11-23T21:55:40Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -16,12 +18,12 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 1
       },
       {
         "source": "federal-register",
@@ -29,9 +31,21 @@
         "items": 7
       }
     ],
-    "freshArticles": 7
+    "freshArticles": 9
   },
   "articles": [
+    {
+      "id": "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530",
+      "headline": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "description": "The Governing Council of the European Central Bank (ECB) has approved the acceptance of marketable assets issued on DLT platforms licensed under the EU DLT Pilot Regime Regulation as eligible collateral for Eurosystem credit operations, subject to specific Eurosystem requirements. This is a new milestone in the roadmap towards making the Eurosystem collateral framework fit for a tokenised European financial market ecosystem, which entails exploring ways to accept and…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-23T10:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+    },
     {
       "id": "b296b7b07f8569b5965aee002a9bb4ac690a731c2475f7687f709590ae7e8a71",
       "headline": "Plastic Balloons From China; Institution of Antidumping and Countervailing Duty Investigations and Scheduling of Preliminary Phase Investigations",
@@ -115,6 +129,18 @@
       "publishedAt": "2026-11-23T00:00:00Z",
       "datePrecision": "day",
       "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23796/agency-information-collection-activities-determining-eligibility-for-free-and-reduced-price-meals"
+    },
+    {
+      "id": "d672d84f345262cbb0730220b143fdebb3eee8516cabff64a4378ddea1ac76e4",
+      "headline": "Commission opens formal investigation into possible anticompetitive conduct by Coca-Cola Europacific Partners in the non-alcoholic drinks sector",
+      "description": "European Commission Press release Brussels, 23 Nov 2026 The European Commission has opened a formal antitrust investigation to assess whether Coca-Cola Europacific Partners (‘CCEP') has breached EU competition rules by (i) hindering the cross-border trade of carbonated soft drinks and sports drinks; and (ii) denying certain wholesale customers the possibility to negotiate the procurement of these products on a multi-country basis.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-22T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2530"
     },
     {
       "id": "c2d78a91e714a0c5ac5732c2dfc0ae8ba2c08d31bfb68cf07ff5eb5069b22fe6",
