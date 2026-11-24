@@ -1,12 +1,14 @@
 {
-  "updatedAt": "2026-11-24T05:46:45Z",
+  "updatedAt": "2026-11-24T20:31:29Z",
   "featuredIds": [
-    "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530"
+    "58bc7856b7cca52e51e9544d4d9f5e731d2c0209e1e69ba7bad03e987ac8d356",
+    "ad67442e90380974fde1b1b078573dba16f41ac5b0659df5a7c5e8c4726c35f5",
+    "effd9a8584ad64c308371ed719adaead5569eaaa69260ed7c91cf4c97c4488fb"
   ],
   "lastRun": {
-    "startedAt": "2026-11-24T05:46:41Z",
-    "completedAt": "2026-11-24T05:46:45Z",
-    "successfulSources": 3,
+    "startedAt": "2026-11-24T20:31:25Z",
+    "completedAt": "2026-11-24T20:31:29Z",
+    "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
@@ -21,17 +23,113 @@
       {
         "source": "european-commission",
         "status": "success",
-        "items": 0
+        "items": 3
       },
       {
         "source": "federal-register",
-        "status": "failed",
-        "error": "Federal Register API response has an invalid format"
+        "status": "success",
+        "items": 4
       }
     ],
-    "freshArticles": 1
+    "freshArticles": 8
   },
   "articles": [
+    {
+      "id": "58bc7856b7cca52e51e9544d4d9f5e731d2c0209e1e69ba7bad03e987ac8d356",
+      "headline": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "description": "Integrated financial markets can help address this by broadening the pool of investors and sources of finance available to firms, and by allowing investors to diversify their portfolios across countries. When a shock hits one country, part of the loss is shared with investors abroad and financing from abroad can keep investment and credit going. In this way, market-based finance complements bank lending and reduces the extent to which domestic shocks translate into domestic…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-24T11:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+    },
+    {
+      "id": "ad67442e90380974fde1b1b078573dba16f41ac5b0659df5a7c5e8c4726c35f5",
+      "headline": "Streamlining and Improving Efficiencies in the RCRA Hazardous Waste Permitting Program; Notice of Virtual Public Meetings and Request for Information",
+      "description": "This document announces and initiates an EPA effort to streamline the Resource Conservation and Recovery Act (RCRA) permit program and to remove associated barriers to redevelopment. This effort will satisfy an Agency Priority Goal established by the EPA Administrator to streamline the permitting process and improve efficiencies to unleash economic growth. In this document, EPA seeks information to help identify inefficiencies in the permit process and ideas for…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23882/streamlining-and-improving-efficiencies-in-the-rcra-hazardous-waste-permitting-program-notice-of"
+    },
+    {
+      "id": "aaf3cc9f7811f427cb6b41a3a59c964229051bd914e78e1fa56e76e4f51b10bb",
+      "headline": "Renewal of Department of Defense Federal Advisory Committees-Department of Defense Wage Committee",
+      "description": "The DoD is publishing this notice to announce it is renewing the Department of Defense Wage Committee (\"the DoD Wage Committee\") as a discretionary Federal advisory committee.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23946/renewal-of-department-of-defense-federal-advisory-committees-department-of-defense-wage-committee"
+    },
+    {
+      "id": "d9b6e3c40e644af65e5d2ed6c3746908326609be8e3c242324d02ba00fd8a384",
+      "headline": "Notification of Inflation Adjustments for Civil Money Penalties",
+      "description": "This document announces the Office of the Comptroller of the Currency's (OCC) maximum civil money penalties for 2026 as adjusted for inflation. The inflation adjustments are required to implement the Federal Civil Penalties Inflation Adjustment Act of 1990, as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23851/notification-of-inflation-adjustments-for-civil-money-penalties"
+    },
+    {
+      "id": "3b1cfd9cbb0c6a0c215114c6766e407f6ba97a4969fb3ef9740a8264079c4282",
+      "headline": "30-Day Notice of Proposed Information Collection: Housing Finance Agency Risk-Sharing Program",
+      "description": "HUD is seeking approval from the Office of Management and Budget (OMB) for the information collection described below. In accordance with the Paperwork Reduction Act, HUD is requesting comments from all interested parties on the proposed collection of information. The purpose of this notice is to allow for 30 days of public comment.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23878/30-day-notice-of-proposed-information-collection-housing-finance-agency-risk-sharing-program"
+    },
+    {
+      "id": "effd9a8584ad64c308371ed719adaead5569eaaa69260ed7c91cf4c97c4488fb",
+      "headline": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
+      "description": "European Commission Press release Strasbourg, 24 Nov 2026 The European Commission today adopted the 2027 European Semester Autumn Package, setting out economic, social and employment policy priorities.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-23T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553"
+    },
+    {
+      "id": "96a3d102b8a7a77fc3017a97f47be545ccfab9148a28203f2934f7bf74407f07",
+      "headline": "Commission imposes provisional import quotas on hybrid passenger vehicles",
+      "description": "European Commission Press release Brussels, 24 Nov 2026 The European Commission today published provisional safeguard measures setting import quotas for certain hybrid vehicles. These restrictions are needed to protect EU industry against a sharp recent increase in imports of such vehicles. The measures will enter into force on 1 December and follow an investigation that showed imports of hybrid vehicles into the EU have increased significantly since 2023.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-23T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564"
+    },
+    {
+      "id": "ca258177416614e7fb0e6501273ec9342a1de19949a2be62f68279b7d210f02a",
+      "headline": "Commission calls for joint EU efforts to reduce tax gaps and boost public finances",
+      "description": "European Commission Press release Brussels, 24 Nov 2026 Today, the European Commission published its Mind the Gap 2026 Communication, showing how enhanced tax compliance, improved governance of tax expenditures, better tax collection and more effective tax administration can help Member States protect public finances and create room for the investments Europe urgently needs.",
+      "source": "European Commission",
+      "sourceUrl": "https://commission.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-23T23:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562"
+    },
     {
       "id": "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530",
       "headline": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
