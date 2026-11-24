@@ -1,14 +1,12 @@
 {
-  "updatedAt": "2026-11-23T21:55:40Z",
+  "updatedAt": "2026-11-24T05:46:45Z",
   "featuredIds": [
-    "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530",
-    "b296b7b07f8569b5965aee002a9bb4ac690a731c2475f7687f709590ae7e8a71",
-    "25d0a3e230aef68f0c933d49b0f60015fded413336df1f6885acf8bc6d584f5b"
+    "fcdf24928d9144fa721820e09b33c87547a0e31c2ab38b625020a0f3f8995530"
   ],
   "lastRun": {
-    "startedAt": "2026-11-23T21:55:36Z",
-    "completedAt": "2026-11-23T21:55:40Z",
-    "successfulSources": 4,
+    "startedAt": "2026-11-24T05:46:41Z",
+    "completedAt": "2026-11-24T05:46:45Z",
+    "successfulSources": 3,
     "sourceResults": [
       {
         "source": "bea",
@@ -23,15 +21,15 @@
       {
         "source": "european-commission",
         "status": "success",
-        "items": 1
+        "items": 0
       },
       {
         "source": "federal-register",
-        "status": "success",
-        "items": 7
+        "status": "failed",
+        "error": "Federal Register API response has an invalid format"
       }
     ],
-    "freshArticles": 9
+    "freshArticles": 1
   },
   "articles": [
     {
