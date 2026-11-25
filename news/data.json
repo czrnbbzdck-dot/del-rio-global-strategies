@@ -1,22 +1,24 @@
 {
-  "updatedAt": "2026-11-25T04:48:24Z",
+  "updatedAt": "2026-11-25T19:48:44Z",
   "featuredIds": [
-    "58bc7856b7cca52e51e9544d4d9f5e731d2c0209e1e69ba7bad03e987ac8d356"
+    "c25d2e83149d7230d9cd9066dd6cfcd3cd2559eaa7eec2fd597f2707eb4c5c72",
+    "6830aad901d1c5d7f55124faf9a404d2c10b52b739e8efea0c712ac3d53c29f9",
+    "d8f34c0807ddd2a4962590eafedaa667d4999ba4e6e6bd9525ec2fdd42be15d3"
   ],
   "lastRun": {
-    "startedAt": "2026-11-25T04:48:21Z",
-    "completedAt": "2026-11-25T04:48:24Z",
-    "successfulSources": 3,
+    "startedAt": "2026-11-25T19:48:39Z",
+    "completedAt": "2026-11-25T19:48:44Z",
+    "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 0
+        "items": 2
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 2
       },
       {
         "source": "european-commission",
@@ -25,13 +27,205 @@
       },
       {
         "source": "federal-register",
-        "status": "failed",
-        "error": "Federal Register API response has an invalid format"
+        "status": "success",
+        "items": 13
       }
     ],
-    "freshArticles": 1
+    "freshArticles": 17
   },
   "articles": [
+    {
+      "id": "c25d2e83149d7230d9cd9066dd6cfcd3cd2559eaa7eec2fd597f2707eb4c5c72",
+      "headline": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+      "description": "Joining T2 will move Sweden’s large-value payment settlement from a national platform to shared European infrastructure. Sveriges Riksbank and Swedish financial institutions will benefit from investments in security, resilience and technological development that are shared across participating markets, as well as from common European standards. Payments will continue to be settled in Swedish kronor using central bank money.",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-25T17:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html"
+    },
+    {
+      "id": "6830aad901d1c5d7f55124faf9a404d2c10b52b739e8efea0c712ac3d53c29f9",
+      "headline": "Personal Income and Outlays, October 2026",
+      "description": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer…",
+      "source": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T13:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+    },
+    {
+      "id": "4277ab8b356914d426eefc5092d2144affd6c05498b6c434e0104aa2a0ad8ef5",
+      "headline": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "description": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports.…",
+      "source": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T13:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+    },
+    {
+      "id": "2a538393bceaa99ba40f6cf0d0bb9f479d731dcc99e760bff5fc4474d7deda3e",
+      "headline": "Card payments edge past cash in shops; euro area consumers want both",
+      "description": "Insights into our work on financial stability and payments and market infrastructures",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-25T10:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
+    },
+    {
+      "id": "d8f34c0807ddd2a4962590eafedaa667d4999ba4e6e6bd9525ec2fdd42be15d3",
+      "headline": "Request for Comments Regarding International Trade Commission's Economic Analysis",
+      "description": "Pursuant to Section 332 of the Tariff Act of 1930, the United States International Trade Commission (Commission) is seeking information from the public on its economic analysis, including its methodology and areas of focus.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23981/request-for-comments-regarding-international-trade-commissions-economic-analysis"
+    },
+    {
+      "id": "5a8092a298f2277159ed221f6fca26c089642f390c4ca58c821dfcbe6d98615e",
+      "headline": "Preventing Outages and Enhancing the Resilience of the Electric Grid Formula Grants to States and Indian Tribes",
+      "description": "The U.S. Department of Energy (DOE or the Department) and National Energy Technology Laboratory (NETL) intends to issue on behalf of the DOE Office of Electricity (OE), Amendment 000010 to DE-FOA- 0002736 Infrastructure Investment and Jobs Act (IIJA)--Preventing Outages and Enhancing the Resilience of the Electric Grid Formula Grants to States and Indian Tribes in Quarter (Q) 1 Fiscal Year (FY) 2027. Amendment 000010 to DE-FOA-0002736 will provide access to FY 2025 and FY…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23982/preventing-outages-and-enhancing-the-resilience-of-the-electric-grid-formula-grants-to-states-and"
+    },
+    {
+      "id": "a11e61cd31dfa716281d1f423b085f32671901818e7c69a14ebbf6f3ded54251",
+      "headline": "Prestressed Concrete Steel Wire Strand From the People's Republic of China: Continuation of Antidumping Duty and Countervailing Duty Orders",
+      "description": "As a result of the determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC) that revocation of the antidumping duty (AD) and countervailing duty (CVD) orders on prestressed concrete steel wire strand (PC strand) from the People's Republic of China (China) would likely lead to the continuation or recurrence of dumping, countervailable subsidies, and material injury to an industry in the United States, Commerce is…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23992/prestressed-concrete-steel-wire-strand-from-the-peoples-republic-of-china-continuation-of"
+    },
+    {
+      "id": "4e924f2211efe6e675a53d9bd3252317a55179717d9b1d3c195604f2ee4cab43",
+      "headline": "Over-the-Counter Monograph Order Requests: Format and Content; Guidance for Industry; Availability",
+      "description": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled \"Over-the- Counter Monograph Order Requests: Format and Content.\" This guidance provides recommendations on the format and content of the information that a requestor should provide in an over-the-counter (OTC) monograph order request (OMOR) and identifies relevant guidance documents to assist requestors in preparing their OMORs. This guidance finalizes…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24015/over-the-counter-monograph-order-requests-format-and-content-guidance-for-industry-availability"
+    },
+    {
+      "id": "e2e09ed6c84bf815f8d8055b7db55542df12e2d7e1cb913adcaf6f8454fae08c",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Ocean Perch in the Eastern Aleutian District of the Bering Sea and Aleutian Islands Management Area",
+      "description": "NMFS is prohibiting directed fishing for Pacific ocean perch in the Eastern Aleutian district (EAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceeding the 2026 total allowable catch (TAC) of Pacific ocean perch in the EAI allocated to vessels participating in the BSAI trawl limited access sector fishery.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23993/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-ocean-perch-in-the-eastern-aleutian"
+    },
+    {
+      "id": "d6ba4f8ebf9dbf9ef513442f8411fd76500f03f3bd742c791d6763a9fc184bf2",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Atka Mackerel in the Bering Sea Subarea and Eastern Aleutian District of the Bering Sea and Aleutian Islands Management Area",
+      "description": "NMFS is prohibiting directed fishing for Atka mackerel in the Bering Sea subarea and Eastern Aleutian District (BS/EAI) of the Bering Sea and Aleutian Islands management area (BSAI) by vessels participating in the BSAI trawl limited access sector fishery. This action is necessary to prevent exceeding the 2026 total allowable catch (TAC) of Atka mackerel in the BS/EAI allocated to vessels participating in the BSAI trawl limited access sector fishery.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23989/fisheries-of-the-exclusive-economic-zone-off-alaska-atka-mackerel-in-the-bering-sea-subarea-and"
+    },
+    {
+      "id": "8bc187aa5a445d387cdbf13d20af8f87fbf917aeca3b01c5a973f5a3e1d9924e",
+      "headline": "Corporate Credit Unions",
+      "description": "The NCUA Board (Board) is amending its regulations for corporate credit unions by removing the requirement that a corporate credit union's asset and liability management committee (ALCO) must have at least one member who is also a member of the corporate credit union's board of directors. The final rule also removes filing requirements related to a corporate credit union's annual report and any management letter or other report issued by its independent public accountant.…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23996/corporate-credit-unions"
+    },
+    {
+      "id": "e3d085a58f55f9d70cf5c60b73473f7fc4560fd8e5fa50c0dd1244740d705723",
+      "headline": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Extension of Comment Period",
+      "description": "The Food and Drug Administration (FDA or the Agency) is extending the comment period for the notice of availability that appeared in the Federal Register of August 28, 2026. In the notice, FDA requested comments on the draft guidance for industry (GFI) #256B titled \"Compounding Animal Drugs from Bulk Drug Substances: Compounding under CGMP in Federally-Registered Facilities.\" The Agency is taking this action in response to requests for an extension to allow interested…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23995/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered"
+    },
+    {
+      "id": "8d1ccf3e5a8cae3a6c0dad62c92b658a468716d37284e0ac0bc6bb40d573278b",
+      "headline": "Commission Information Collection Activities (FERC-549C); Comment Request; Extension",
+      "description": "In compliance with the requirements of the Paperwork Reduction Act of 1995, the Federal Energy Regulatory Commission (Commission or FERC) is soliciting public comment on the currently approved information collection, FERC-549C (OMB Control No. 1902-0174), Standards for Business Practices of Interstate Natural Gas Pipelines. The comment period ended on September 8, 2026, with no comments received.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24006/commission-information-collection-activities-ferc-549c-comment-request-extension"
+    },
+    {
+      "id": "105b68731098120da03a0faf8de559717980d45ef162364fd3b6e614ad136a41",
+      "headline": "Beautifying Transportation Infrastructure Council; Public Meeting",
+      "description": "The Office of the Secretary of Transportation (OST) announces the next public meeting of the Beautifying Transportation Infrastructure Council (Council) on December 9, 2026. This notice announces the date, time, and location of the virtual meeting, which will be open to the public. The purpose of the Council is to advise the Secretary of Transportation on enhancing the aesthetic value of our Nation's transportation systems.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23958/beautifying-transportation-infrastructure-council-public-meeting"
+    },
+    {
+      "id": "98813bf85c0a910322aab1bc2f4b57c5dd7e15cd4748c69e4b96f78f34f1ec42",
+      "headline": "Agency Information Collection Activities; Proposed Collection; Comment Request; Coronavirus Capital Projects Fund Reporting & Recordkeeping",
+      "description": "The Department of the Treasury, as part of its continuing effort to reduce paperwork and respondent burden, invites the general public and other federal agencies to comment on the proposed information collections listed below, in accordance with the Paperwork Reduction Act of 1995.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24020/agency-information-collection-activities-proposed-collection-comment-request-coronavirus-capital"
+    },
+    {
+      "id": "324822135c09958015f14238dcc163539dfbe632c86f84b13dba29c243f67363",
+      "headline": "Additions to the Entity List",
+      "description": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 7 entities to the Entity List, under the destinations of Malaysia, Singapore, and Thailand. These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list"
+    },
     {
       "id": "58bc7856b7cca52e51e9544d4d9f5e731d2c0209e1e69ba7bad03e987ac8d356",
       "headline": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
