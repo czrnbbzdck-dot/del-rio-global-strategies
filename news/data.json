@@ -1,24 +1,22 @@
 {
-  "updatedAt": "2026-11-26T03:59:15Z",
+  "updatedAt": "2026-11-26T19:26:53Z",
   "featuredIds": [
-    "c25d2e83149d7230d9cd9066dd6cfcd3cd2559eaa7eec2fd597f2707eb4c5c72",
-    "4277ab8b356914d426eefc5092d2144affd6c05498b6c434e0104aa2a0ad8ef5",
-    "a11e61cd31dfa716281d1f423b085f32671901818e7c69a14ebbf6f3ded54251"
+    "00009a421e4e16476c6f304d235b85381fe47d76a5f91693f77dfa57e7edbdf8"
   ],
   "lastRun": {
-    "startedAt": "2026-11-26T03:59:11Z",
-    "completedAt": "2026-11-26T03:59:15Z",
+    "startedAt": "2026-11-26T19:26:50Z",
+    "completedAt": "2026-11-26T19:26:53Z",
     "successfulSources": 4,
     "sourceResults": [
       {
         "source": "bea",
         "status": "success",
-        "items": 2
+        "items": 0
       },
       {
         "source": "ecb",
         "status": "success",
-        "items": 2
+        "items": 1
       },
       {
         "source": "european-commission",
@@ -28,12 +26,120 @@
       {
         "source": "federal-register",
         "status": "success",
-        "items": 13
+        "items": 8
       }
     ],
-    "freshArticles": 17
+    "freshArticles": 9
   },
   "articles": [
+    {
+      "id": "7544feabfee0176a784f57d3445a6145094a526d723d873610809d7c831a3e28",
+      "headline": "Notice of Request for Extension of Currently Approved Information Collection",
+      "description": "In accordance with the Paperwork Reduction Act of 1995, this notice announces the Foreign Agricultural Service's (FAS) and Commodity Credit Corporation's (CCC) intention to request an extension from the Office of Management and Budget (OMB) for a currently approved information collection process in support of the Foreign Market Development (FMD) Program and the Market Access Program (MAP).",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24157/notice-of-request-for-extension-of-currently-approved-information-collection"
+    },
+    {
+      "id": "74ac6271fe878918539af028147528231dfbfcbeaeeea3f22c3d21fe4f78d8e4",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Pacific Cod in the Bering Sea Subarea of the Bering Sea and Aleutian Islands Management Area",
+      "description": "NMFS is prohibiting directed fishing for Pacific cod, except for the Community Development Quota program (CDQ), in the Bering Sea subarea of the Bering Sea and Aleutian Islands management area (BSAI). This action is necessary to prevent exceeding the non-CDQ allocation of the 2026 Pacific cod total allowable catch (TAC) in the Bering Sea subarea of the BSAI.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24105/fisheries-of-the-exclusive-economic-zone-off-alaska-pacific-cod-in-the-bering-sea-subarea-of-the"
+    },
+    {
+      "id": "3d7fd52f19f178f080e11ba9b87994b79b77aaa92c82f0d3732fa33b8efcbc85",
+      "headline": "Fisheries of the Exclusive Economic Zone Off Alaska; Bering Sea and Aleutian Islands Management Area; 2026 Cost Recovery Fee Notice for the Western Alaska Community Development Quota and Trawl Limited Access Privilege Programs",
+      "description": "NMFS publishes the 2026 standard prices and fee percentages for cost recovery for the Amendment 80 Program, the American Fisheries Act (AFA) Program, the Aleutian Islands Pollock (AIP) Program, and the Western Alaska Community Development Quota (CDQ) Program in the Bering Sea Aleutian Islands (BSAI) management area. The fee percentages for 2026 are 0.94 percent for the Amendment 80 Program, 0.46 percent for the AFA inshore cooperatives, 0 percent for the AIP program, and…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24156/fisheries-of-the-exclusive-economic-zone-off-alaska-bering-sea-and-aleutian-islands-management-area"
+    },
+    {
+      "id": "c45682b149152466e8c282a2e556eb605cede2aee6ae623b5ee8aa73a3ed662c",
+      "headline": "American SI Exports Program; On-Demand Consortia for Specific Foreign Opportunities",
+      "description": "The Department of Commerce (the Department), through the International Trade Administration (ITA), establishes the On-Demand Consortia pathway under the Super Intelligence (SI) Exports Program \\1\\ (the Program) authorized by Executive Order 14320: Promoting the Export of the American SI Technology Stack, as laid out in the Call for Proposals for Pre-Set Consortia, released on April 10, 2026 (April 2026 CFP). The Department also provides for re-designation and de…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24107/american-si-exports-program-on-demand-consortia-for-specific-foreign-opportunities"
+    },
+    {
+      "id": "40345a1dcd71c3c53300a16eb23521085fd872eb8803d76a9cca844ec850984e",
+      "headline": "Agricultural Foreign Investment Disclosure Act of 1978",
+      "description": "On June 25, 2026, the United States Department of Agriculture (the Agency) published a proposed rule to update its regulations regarding the Agricultural Foreign Investment Disclosure Act of 1978 (AFIDA) (91 FR 38315) and requested public comment by August 10, 2026. The Agency is reopening the comment period in response to a request from stakeholders to extend the comment period to allow additional time for interested parties to review the proposed revisions and submit…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24143/agricultural-foreign-investment-disclosure-act-of-1978"
+    },
+    {
+      "id": "92684e8ef38e47415bee03dcd8707d3fc865468abaa23d2953ae1e82d7e79720",
+      "headline": "Agency Information Collection Proposed New Survey",
+      "description": "EIA invites public comment on the proposed collection of information, Data Center Energy Consumption Survey (DCECS), as required under the Paperwork Reduction Act of 1995. Form EIA-872 will collect facility-level data on energy consumption and energy-related physical and operational characteristics from all U.S. data centers with a design capacity of at least 1 megawatt (MW). DCECS will be used to produce national statistics on data center energy consumption and electricity…",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24077/agency-information-collection-proposed-new-survey"
+    },
+    {
+      "id": "9c9dda741446c0ca1d77893b9192e77d2c2b622aef94e6aa92a31e0026817d83",
+      "headline": "Agency Information Collection Activities; Proposed Collection; Comment Request; Extension",
+      "description": "In accordance with the Paperwork Reduction Act of 1995 (\"PRA\"), the Federal Trade Commission (\"FTC\" or \"Commission\") is seeking public comment on its proposal to extend for an additional three years the information collection requirements contained in the contained in the agency's Business Opportunity Rule (\"Rule\"). The current clearance expires on February 28, 2027.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "Global",
+      "region": "Global",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24159/agency-information-collection-activities-proposed-collection-comment-request-extension"
+    },
+    {
+      "id": "6655c7fc8c7a1d59033ab5a082ef4e6e440d57aa7ebda988fe9772a2c5278480",
+      "headline": "Administrative Declaration of an Economic Injury Disaster for the State of Idaho",
+      "description": "This is notice of an Economic Injury Disaster Loan (EIDL) declaration for the state of Idaho dated November 23, 2026. Incident: Big Rock Fire, Flooding, and Debris Flow.",
+      "source": "Federal Register",
+      "sourceUrl": "https://www.federalregister.gov/",
+      "category": "United States",
+      "region": "United States",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "datePrecision": "day",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24161/administrative-declaration-of-an-economic-injury-disaster-for-the-state-of-idaho"
+    },
+    {
+      "id": "00009a421e4e16476c6f304d235b85381fe47d76a5f91693f77dfa57e7edbdf8",
+      "headline": "Meeting of 28-29 October 2026",
+      "description": "With the further and broader rise in energy prices, headline inflation had increased by more than expected, rising to 3.8% in September, from 3.2% in August. Energy price inflation had increased markedly, to 18.9%, from 14.3% in August. Other components of consumer price inflation, however, including food, non-energy goods and services, were either in line with or slightly lower than what had been previously expected. Inflation excluding energy had increased to 2.3% in…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-26T12:30:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
+    },
     {
       "id": "c25d2e83149d7230d9cd9066dd6cfcd3cd2559eaa7eec2fd597f2707eb4c5c72",
       "headline": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
