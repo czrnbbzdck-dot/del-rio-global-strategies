@@ -1,11 +1,13 @@
 {
-  "updatedAt": "2026-11-27T03:58:07Z",
+  "updatedAt": "2026-11-27T19:22:25Z",
   "featuredIds": [
-    "00009a421e4e16476c6f304d235b85381fe47d76a5f91693f77dfa57e7edbdf8"
+    "52093f454fd05226ac0068fe70cecc4fe6dd057c03fdf2dd0506811e3d9c954b",
+    "7544feabfee0176a784f57d3445a6145094a526d723d873610809d7c831a3e28",
+    "74ac6271fe878918539af028147528231dfbfcbeaeeea3f22c3d21fe4f78d8e4"
   ],
   "lastRun": {
-    "startedAt": "2026-11-27T03:58:04Z",
-    "completedAt": "2026-11-27T03:58:07Z",
+    "startedAt": "2026-11-27T19:22:22Z",
+    "completedAt": "2026-11-27T19:22:25Z",
     "successfulSources": 4,
     "sourceResults": [
       {
@@ -16,7 +18,7 @@
       {
         "source": "ecb",
         "status": "success",
-        "items": 1
+        "items": 2
       },
       {
         "source": "european-commission",
@@ -29,9 +31,33 @@
         "items": 8
       }
     ],
-    "freshArticles": 9
+    "freshArticles": 10
   },
   "articles": [
+    {
+      "id": "52093f454fd05226ac0068fe70cecc4fe6dd057c03fdf2dd0506811e3d9c954b",
+      "headline": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "description": "On 12 November 2026 the Governing Council held an exchange of views on the basis of the November 2026 edition of the Financial Stability Review and authorised its publication on the ECB’s website. In addition to providing an overview of key financial stability vulnerabilities in the euro area, this edition includes three special features. The first discusses the financial stability implications of AI adoption in the real economy and the financial industry. The second…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-27T14:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+    },
+    {
+      "id": "6a89018ebd552bf52014ddfbf2fac1546da2c9d85ccf3eef713b565ce49de06e",
+      "headline": "ECB Consumer Expectations Survey results – October 2026",
+      "description": "Consumers expected the price of their home to increase by 3.3% over the next 12 months, lower than in September (3.5%). As in previous months expectations for home price growth over the next 12 months remained, on average, higher in the lowest income quintile (3.8%) than in the highest income quintile (3.0%). Expectations for mortgage interest rates in 12 months’ time remained unchanged from July, at 4.9%. As in previous months, households in the top income quintile…",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu/",
+      "category": "Global",
+      "region": "Europe",
+      "publishedAt": "2026-11-27T09:00:00Z",
+      "datePrecision": "timestamp",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html"
+    },
     {
       "id": "7544feabfee0176a784f57d3445a6145094a526d723d873610809d7c831a3e28",
       "headline": "Notice of Request for Extension of Currently Approved Information Collection",
