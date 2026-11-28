@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-27T19:22:25Z",
+  "updatedAt": "2026-11-28T03:45:48Z",
   "featuredIds": [
-    "52093f454fd05226ac0068fe70cecc4fe6dd057c03fdf2dd0506811e3d9c954b",
-    "7544feabfee0176a784f57d3445a6145094a526d723d873610809d7c831a3e28",
-    "74ac6271fe878918539af028147528231dfbfcbeaeeea3f22c3d21fe4f78d8e4"
+    "6a89018ebd552bf52014ddfbf2fac1546da2c9d85ccf3eef713b565ce49de06e",
+    "3d7fd52f19f178f080e11ba9b87994b79b77aaa92c82f0d3732fa33b8efcbc85",
+    "c45682b149152466e8c282a2e556eb605cede2aee6ae623b5ee8aa73a3ed662c"
   ],
   "lastRun": {
-    "startedAt": "2026-11-27T19:22:22Z",
-    "completedAt": "2026-11-27T19:22:25Z",
+    "startedAt": "2026-11-28T03:45:43Z",
+    "completedAt": "2026-11-28T03:45:48Z",
     "successfulSources": 4,
     "sourceResults": [
       {
